@@ -3,7 +3,7 @@ import theme from "theme";
 import { Theme, Link, Image, Button, Section, Text, Box, Input } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, Formspree, SocialMedia } from "@quarkly/components";
+import { Override, Formspree } from "@quarkly/components";
 import * as Components from "components";
 import { MdMenu } from "react-icons/md";
 export default (() => {
@@ -815,49 +815,6 @@ export default (() => {
 				>
 					Start Now
 				</Button>
-			</Box>
-		</Section>
-		<Section
-			justify-content="center"
-			margin="0 0 0 0"
-			padding="16px 0 16px 0"
-			box-sizing="border-box"
-			quarkly-title="Footer"
-		>
-			<Override
-				slot="SectionContent"
-				min-width="auto"
-				width="100%"
-				margin="0px 32px 0px 32px"
-				md-margin="0px 16px 0px 16px"
-			/>
-			<Box
-				display="grid"
-				grid-gap="32px"
-				width="100%"
-				grid-template-columns="repeat(2, 1fr)"
-				sm-grid-gap="16px"
-			>
-				<Box display="flex" align-items="center" sm-flex-wrap="wrap">
-					<Image src="https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-quarkly-logo-grey.svg?v=2020-11-06T17:24:35.270Z" width="28px" height="28px" />
-					<Link
-						text-align="left"
-						margin="1px 0px 0px 10px"
-						white-space="nowrap"
-						opacity="0.6"
-						text-decoration-line="initial"
-						hover-text-decoration-line="underline"
-						href="https://quarkly.io/"
-						font="--base"
-						color="--dark"
-					>
-						Made on Quarkly
-					</Link>
-				</Box>
-				<SocialMedia facebook="https://www.facebook.com/quarklyapp/" twitter="https://twitter.com/quarklyapp" youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw" justify-content="flex-end">
-					<Override slot="link" background="none" border-radius="50%" />
-					<Override slot="icon" color="--dark" />
-				</SocialMedia>
 			</Box>
 		</Section>
 		<Link
