@@ -5,7 +5,7 @@ import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
 import * as Components from "components";
-import { MdMenu } from "react-icons/md";
+import { MdMenu, MdFace } from "react-icons/md";
 import { DiBootstrap, DiBingSmall, DiCssTricks, DiEnvato, DiGithubBadge } from "react-icons/di";
 export default (() => {
 	return <Theme theme={theme}>
@@ -20,7 +20,13 @@ export default (() => {
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z"} />
 			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
 		</Helmet>
-		<Section padding="16px 0 16px 0" quarkly-title="Header" align-items="center" justify-content="center">
+		<Section
+			padding="16px 0 16px 0"
+			quarkly-title="Header"
+			align-items="center"
+			justify-content="center"
+			background="#000000"
+		>
 			<Override
 				slot="SectionContent"
 				md-margin="0px 16px 0px 16px"
@@ -31,7 +37,13 @@ export default (() => {
 				width="100%"
 			/>
 			<Link transition="opacity 200ms ease" quarkly-title="Link" href="/" position="relative">
-				<Image src="https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-logo.svg?v=2020-11-06T17:26:21.226Z" width="120px" z-index="3" />
+				<Image
+					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06:46:01.042Z"
+					width="120px"
+					z-index="3"
+					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 479px) 100vw,(max-width: 767px) 100vw,(max-width: 991px) 100vw,(max-width: 1199px) 100vw,100vw"
+				/>
 			</Link>
 			<Components.BurgerMenu md-display="flex" md-align-items="center" md-justify-content="flex-end">
 				<Override slot="icon-open" md-position="fixed" md-top="18px" md-right="18px" />
@@ -48,6 +60,7 @@ export default (() => {
 					md-height="100%"
 					padding="0px 0 0px 0"
 					align-items="center"
+					position="sticky"
 				>
 					<Override
 						slot="item"
@@ -56,6 +69,7 @@ export default (() => {
 						text-transform="uppercase"
 						text-align="center"
 						padding="8px 20px 8px 20px"
+						color="#fcfcfc"
 					/>
 					<Override slot="item-404" lg-display="none" display="none" />
 					<Override slot="item-index" lg-display="none" display="none" />
@@ -84,6 +98,32 @@ export default (() => {
 						color="--primary"
 						cursor="default"
 					/>
+					<Override slot="link-about" color="--light" />
+					<Override
+						slot="item-about"
+						color="#fcfcfc"
+						border-width="2px"
+						border-style="solid"
+						margin="0px 10px 0px 0px"
+					/>
+					<Override
+						slot="item-team"
+						color="#fcfcfc"
+						background="#000000"
+						border-width="2px"
+						border-style="solid"
+						margin="0px 10px 0px 10px"
+					/>
+					<Override slot="link-team" color="--light" />
+					<Override
+						slot="item-contact"
+						color="#fcfcfc"
+						background="#000000"
+						border-width="2px"
+						border-style="solid"
+						margin="0px 0px 0px 10px"
+					/>
+					<Override slot="link-contact" color="--light" />
 				</Override>
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 				<Override
@@ -111,11 +151,15 @@ export default (() => {
 				font="--base"
 				letter-spacing="0.5px"
 				z-index="5"
-				background="--color-primary"
+				background="--color-dark"
 				padding="8px 18px 8px 18px"
 				border-radius="0px"
 				hover-transform="translateY(-4px)"
 				justify-self="end"
+				color="#ffffff"
+				border-width="2px"
+				border-style="solid"
+				border-color="#ffffff"
 			>
 				Contact Us
 			</Button>
@@ -128,12 +172,13 @@ export default (() => {
 			sm-align-items="center"
 			sm-justify-content="center"
 			quarkly-title="Hero"
+			background="#000000"
 		>
 			<Override
 				slot="SectionContent"
 				md-margin="0px 16px 0px 16px"
 				width="100%"
-				background="linear-gradient(180deg,rgba(155, 108, 252, 0.15) 0%,transparent 100%) 0 0 no-repeat,#191C23 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-works-angle.svg?v=2020-11-06T16:36:54.345Z) center center/cover repeat scroll padding-box"
+				background="url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06:46:01.042Z) 0% 0%/contain no-repeat,#000000"
 				height="620px"
 				justify-content="center"
 				sm-width="100%"
@@ -143,42 +188,25 @@ export default (() => {
 				lg-height="520px"
 				md-height="420px"
 				md-padding="0px 24px 0px 24px"
+				overflow-x="visible"
+				overflow-y="visible"
+				flex-direction="column-reverse"
+				display="grid"
+				flex="0 1 auto"
+				order="0"
+				align-self="auto"
 			/>
 			<Text
 				font="--headline1"
-				margin="16px 0px 0px 0px"
+				margin="350px 0px 0px 0px"
 				sm-text-align="center"
 				sm-width="80%"
 				lg-text-align="center"
 				lg-font="--headline2"
 				color="--light"
 			>
-				Make a Difference.
+				Enchant Your Way.
 			</Text>
-			<Text
-				sm-text-align="center"
-				sm-width="80%"
-				opacity="0.7"
-				md-text-align="center"
-				font="--lead"
-				color="--light"
-				margin="10px 0px 35px 0px"
-			>
-				Supercharge your personal and professional success with a beautifully crafted website.
-			</Text>
-			<Link
-				text-decoration-line="initial"
-				color="--darkL2"
-				padding="12px 24px 12px 24px"
-				letter-spacing="0.5px"
-				transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-				href="#mission"
-				background="--color-light"
-				font="--base"
-				hover-transform="translateY(-4px)"
-			>
-				Learn More
-			</Link>
 		</Section>
 		<Section
 			box-sizing="border-box"
@@ -1001,6 +1029,7 @@ export default (() => {
 				</Button>
 			</Box>
 		</Section>
+		<Icon category="md" icon={MdFace} size="64px" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
