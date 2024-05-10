@@ -1,11 +1,11 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Button, Section, Text, Box, Icon } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Text, Box, Em, Icon, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
 import * as Components from "components";
-import { MdMenu, MdFace } from "react-icons/md";
+import { MdMenu } from "react-icons/md";
 import { DiBootstrap, DiBingSmall, DiCssTricks, DiEnvato, DiGithubBadge } from "react-icons/di";
 export default (() => {
 	return <Theme theme={theme}>
@@ -144,25 +144,6 @@ export default (() => {
 					md-align-items="center"
 				/>
 			</Components.BurgerMenu>
-			<Button
-				md-display="none"
-				white-space="nowrap"
-				transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-				font="--base"
-				letter-spacing="0.5px"
-				z-index="5"
-				background="--color-dark"
-				padding="8px 18px 8px 18px"
-				border-radius="0px"
-				hover-transform="translateY(-4px)"
-				justify-self="end"
-				color="#ffffff"
-				border-width="2px"
-				border-style="solid"
-				border-color="#ffffff"
-			>
-				Contact Us
-			</Button>
 		</Section>
 		<Section
 			lg-padding="25px 0 25px 0"
@@ -218,7 +199,7 @@ export default (() => {
 			border-style="solid"
 			border-width="1px 0px 1px 0px"
 			sm-padding="24px 0 24px 0"
-			background="--color-lightD1"
+			background="--color-dark"
 			justify-content="center"
 		>
 			<Override
@@ -238,22 +219,22 @@ export default (() => {
 				lg-margin="0px 0px 6px 0px"
 				quarkly-title="Title"
 				text-transform="uppercase"
-				color="--dark"
+				color="--light"
 				lg-text-align="center"
 			>
 				Our Mission
 			</Text>
 			<Text
-				letter-spacing="1px"
-				color="--dark"
-				text-align="center"
+				letter-spacing="0.7px"
+				color="--light"
+				text-align="justify"
 				width="85%"
 				lg-font="--lead"
 				sm-font="--base"
 				font="normal 500 28px/1.2 'AvenirNextCyrRegular', sans-serif"
 				margin="0px 0px 0px 0px"
 			>
-				We empower creators to do their best work while maintaining our uncompromising values while we grow.
+				At Enchanted Realms, we strive to forge a vibrant community of adventurers and builders dedicated to crafting unforgettable experiences. Join us to explore boundless possibilities and create your own legend in our mystical world.
 			</Text>
 		</Section>
 		<Section
@@ -318,7 +299,7 @@ export default (() => {
 						opacity="0.6"
 						lg-text-align="left"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+						Qui som?
 					</Text>
 					<Link
 						href="/about"
@@ -397,7 +378,10 @@ export default (() => {
 						sm-font="--headline3"
 						md-font="--headline3"
 					>
-						Why Choose Us
+						We're here for{" "}
+						<Em>
+							You
+						</Em>
 					</Text>
 					<Text
 						opacity="0.6"
@@ -409,7 +393,7 @@ export default (() => {
 						margin="0px 0px 20px 0px"
 						color="--darkL2"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+						Comunitat petita. Més per la gent. Amistosos. de proximitat.
 					</Text>
 					<Link
 						color="--light"
@@ -480,7 +464,7 @@ export default (() => {
 						lg-margin="0px 0px 18px 0px"
 						sm-font="--base"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.
+						First Spain, then Europe...
 					</Text>
 					<Link
 						margin="9px 0px 0px 0px"
@@ -510,122 +494,6 @@ export default (() => {
 					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 				/>
 			</Box>
-		</Section>
-		<Section
-			padding="100px 0px 100px 0px"
-			quarkly-title="Works"
-			box-sizing="border-box"
-			lg-padding="50px 30px 50px 30px"
-			justify-content="center"
-		>
-			<Override
-				slot="SectionContent"
-				width="100%"
-				min-width="auto"
-				margin="0px 32px 0px 32px"
-				md-margin="0px 0px 0px 0px"
-				align-items="center"
-			/>
-			<Text
-				color="--dark"
-				text-align="center"
-				text-transform="uppercase"
-				lg-text-align="center"
-				letter-spacing="1px"
-				margin="0px 0px 10px 0px"
-				opacity="0.6"
-				lg-margin="0px 0px 6px 0px"
-				quarkly-title="Title"
-				font="--base"
-			>
-				what we create
-			</Text>
-			<Text
-				text-align="center"
-				lg-text-align="center"
-				md-margin="0px 0px 36px 0px"
-				sm-font="--headline3"
-				md-font="--headline3"
-				font="--headline2"
-				margin="0px 0px 48px 0px"
-				color="--dark"
-			>
-				Our Works
-			</Text>
-			<Box
-				lg-grid-template-columns="repeat(2, 1fr)"
-				md-grid-template-columns="1fr"
-				width="100%"
-				display="grid"
-				grid-gap="32px"
-				grid-template-columns="repeat(3, 1fr)"
-			>
-				<Box
-					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-first.svg?v=2020-11-06T16:37:39.391Z) center center/100% no-repeat"
-					padding="0px 0px 60% 0px"
-					height="0px"
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-first.svg?v=2020-11-06T16:37:39.391Z) center center/110% no-repeat"
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-				/>
-				<Box
-					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-second.svg?v=2020-11-06T17:14:59.136Z) center center/100% no-repeat"
-					padding="0px 0px 60% 0px"
-					height="0px"
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-second.svg?v=2020-11-06T17:14:59.136Z) center center/110% no-repeat"
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-				/>
-				<Box
-					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-third.svg?v=2020-11-06T17:15:50.700Z) center center/100% no-repeat"
-					padding="0px 0px 60% 0px"
-					height="0px"
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-third.svg?v=2020-11-06T17:15:50.700Z) center center/110% no-repeat"
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-				/>
-				<Box
-					height="0px"
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-fourth.svg?v=2020-11-06T17:17:18.847Z) center center/110% no-repeat"
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-fourth.svg?v=2020-11-06T17:17:18.847Z) center center/100% no-repeat"
-					padding="0px 0px 60% 0px"
-				/>
-				<Box
-					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-fifth.svg?v=2020-11-06T17:18:24.897Z) center center/100% no-repeat"
-					padding="0px 0px 60% 0px"
-					height="0px"
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-fifth.svg?v=2020-11-06T17:18:24.897Z) center center/110% no-repeat"
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-				/>
-				<Box
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-sixth.svg?v=2020-11-06T17:19:03.657Z) center center/100% no-repeat"
-					padding="0px 0px 60% 0px"
-					height="0px"
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-sixth.svg?v=2020-11-06T17:19:03.657Z) center center/110% no-repeat"
-				/>
-			</Box>
-			<Link
-				text-align="center"
-				margin="48px 0px 0px 0px"
-				hover-transform="translateY(-4px)"
-				href="/contact"
-				color="--light"
-				padding="8px 18px 8px 18px"
-				font="--base"
-				transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-				md-margin="36px 0px 0px 0px"
-				text-decoration-line="initial"
-				letter-spacing="0.5px"
-				background="--color-primary"
-				lg-margin="24px 0px 0px 0px"
-			>
-				View More
-			</Link>
 		</Section>
 		<Section
 			sm-padding="24px 0 24px 0"
@@ -796,7 +664,7 @@ export default (() => {
 				letter-spacing="1px"
 				opacity="0.6"
 			>
-				They trust us
+				...WE WORK WITH...
 			</Text>
 			<Text
 				text-align="center"
@@ -808,7 +676,7 @@ export default (() => {
 				margin="0px 0px 64px 0px"
 				color="--dark"
 			>
-				Our Customers
+				SERVER
 			</Text>
 			<Box
 				lg-grid-template-columns="repeat(6, 1fr)"
@@ -994,7 +862,7 @@ export default (() => {
 					text-align="center"
 					quarkly-title="Title"
 				>
-					Make It Work.
+					Don't wait. Just Join.
 				</Text>
 				<Text
 					opacity="0.6"
@@ -1005,7 +873,7 @@ export default (() => {
 					margin="0px 0px 28px 0px"
 					font="--lead"
 				>
-					Good design adds value faster than it adds cost.
+					Follow these steps to join our adventure
 				</Text>
 				<Button
 					z-index="5"
@@ -1029,7 +897,6 @@ export default (() => {
 				</Button>
 			</Box>
 		</Section>
-		<Icon category="md" icon={MdFace} size="64px" />
 		<Link
 			font={"--capture"}
 			font-size={"10px"}
