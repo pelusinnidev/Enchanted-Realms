@@ -68,7 +68,9 @@ export default {
 			"customSitemapDomain": "",
 			"favicon_32px": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/32px.png?v=2024-05-10T09:37:16.885Z",
 			"favicon_apple_152px": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/152px.png?v=2024-05-10T09:37:54.804Z",
-			"favicon_win10_270px": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/270px.png?v=2024-05-10T09:38:23.065Z"
+			"favicon_win10_270px": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/270px.png?v=2024-05-10T09:38:23.065Z",
+			"og:image": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/7bca460786c52b85bbd4b94017bc565a.png?v=2024-05-10T11:23:56.517Z",
+			"description": "Discover the magic of Enchanted Realms: your ultimate Minecraft adventure awaits! Explore immersive landscapes, forge friendships, and unleash your creativity. Join us today and experience the enchantment firsthand!"
 		}
 	}
 }
