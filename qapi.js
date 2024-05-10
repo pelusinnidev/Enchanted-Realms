@@ -7,7 +7,7 @@ export default {
 				"663cf7db3f24780021f6cc87",
 				"663cf7db3f24780021f6cc8b",
 				"663cf7db3f24780021f6cc93",
-				"663cf7db3f24780021f6cc97"
+				"663dec48f0cb1d0025f53180"
 			],
 			"id": "root",
 			"pageUrl": "root"
@@ -53,23 +53,22 @@ export default {
 			"pageUrl": "team",
 			"name": "Team"
 		},
-		"663cf7db3f24780021f6cc97": {
-			"id": "663cf7db3f24780021f6cc97",
-			"pageUrl": "contact",
-			"name": "Contact",
-			"seo": {
-				"og:image": "https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z",
-				"title": "Contact | Website Example",
-				"og:title": "Contact | Website Example",
-				"description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
-				"og:description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference."
-			}
+		"663dec48f0cb1d0025f53180": {
+			"id": "663dec48f0cb1d0025f53180",
+			"pageUrl": "guide",
+			"name": "Guide"
 		}
 	},
 	"mode": "production",
 	"projectType": "gatsby",
 	"site": {
 		"styles": {},
-		"seo": {}
+		"seo": {
+			"title": "Enchanted Realms",
+			"customSitemapDomain": "",
+			"favicon_32px": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/32px.png?v=2024-05-10T09:37:16.885Z",
+			"favicon_apple_152px": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/152px.png?v=2024-05-10T09:37:54.804Z",
+			"favicon_win10_270px": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/270px.png?v=2024-05-10T09:38:23.065Z"
+		}
 	}
 }

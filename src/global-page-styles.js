@@ -7,7 +7,7 @@ const pageStyles = {
     "index": {},
     "about": {},
     "team": {},
-    "contact": {}
+    "guide": {}
 };
 
 const PageStyles = createGlobalStyle`

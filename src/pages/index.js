@@ -1,12 +1,13 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Section, Text, Box, Em, Icon, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Text, Box, Icon, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
 import * as Components from "components";
 import { MdMenu } from "react-icons/md";
-import { DiBootstrap, DiBingSmall, DiCssTricks, DiEnvato, DiGithubBadge } from "react-icons/di";
+import { DiJava, DiUbuntu, DiWindows, DiGithubBadge } from "react-icons/di";
+import { FaDiscord } from "react-icons/fa";
 export default (() => {
 	return <Theme theme={theme}>
 		<GlobalQuarklyPageStyles pageUrl={"index"} />
@@ -18,7 +19,12 @@ export default (() => {
 			<meta property={"og:title"} content={"Home | Website Example"} />
 			<meta property={"og:description"} content={"It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference."} />
 			<meta property={"og:image"} content={"https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z"} />
-			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/readme/cra/favicon-32x32.ico"} type={"image/x-icon"} />
+			<link rel={"shortcut icon"} href={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/32px.png?v=2024-05-10T09:37:16.885Z"} type={"image/x-icon"} />
+			<link rel={"apple-touch-icon"} href={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/152px.png?v=2024-05-10T09:37:54.804Z"} />
+			<link rel={"apple-touch-icon"} sizes={"76x76"} href={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/152px.png?v=2024-05-10T09:37:54.804Z"} />
+			<link rel={"apple-touch-icon"} sizes={"152x152"} href={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/152px.png?v=2024-05-10T09:37:54.804Z"} />
+			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/152px.png?v=2024-05-10T09:37:54.804Z"} />
+			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/270px.png?v=2024-05-10T09:38:23.065Z"} />
 		</Helmet>
 		<Section
 			padding="16px 0 16px 0"
@@ -38,10 +44,10 @@ export default (() => {
 			/>
 			<Link transition="opacity 200ms ease" quarkly-title="Link" href="/" position="relative">
 				<Image
-					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06:46:01.042Z"
+					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z"
 					width="120px"
 					z-index="3"
-					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06%3A46%3A01.042Z&quality=85&w=3200 3200w"
+					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=3200 3200w"
 					sizes="(max-width: 479px) 100vw,(max-width: 767px) 100vw,(max-width: 991px) 100vw,(max-width: 1199px) 100vw,100vw"
 				/>
 			</Link>
@@ -124,6 +130,10 @@ export default (() => {
 						margin="0px 0px 0px 10px"
 					/>
 					<Override slot="link-contact" color="--light" />
+					<Override slot="link-guide" color="--light">
+						Guide
+					</Override>
+					<Override slot="item-guide" background="#000000" border-width="2px" border-style="solid" />
 				</Override>
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 				<Override
@@ -159,7 +169,7 @@ export default (() => {
 				slot="SectionContent"
 				md-margin="0px 16px 0px 16px"
 				width="100%"
-				background="url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot_2024-05-09_at_17.28.10.png?v=2024-05-10T06:46:01.042Z) 0% 0%/contain no-repeat,#000000"
+				background="url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z) 0% 0%/contain no-repeat,#000000"
 				height="620px"
 				justify-content="center"
 				sm-width="100%"
@@ -227,7 +237,7 @@ export default (() => {
 			<Text
 				letter-spacing="0.7px"
 				color="--light"
-				text-align="justify"
+				text-align="center"
 				width="85%"
 				lg-font="--lead"
 				sm-font="--base"
@@ -243,6 +253,7 @@ export default (() => {
 			padding="70px 0 70px 0"
 			quarkly-title="Info"
 			lg-padding="50px 0px 50px 0px"
+			background="#000000"
 		>
 			<Override
 				slot="SectionContent"
@@ -267,66 +278,37 @@ export default (() => {
 					align-items="flex-start"
 				>
 					<Text
-						font="--base"
-						letter-spacing="1px"
-						quarkly-title="Title"
-						margin="0px 0px 10px 0px"
-						color="--dark"
-						opacity="0.6"
-						lg-text-align="center"
-						lg-margin="0px 0px 6px 0px"
-						text-transform="uppercase"
-					>
-						Team
-					</Text>
-					<Text
 						md-font="--headline3"
 						font="--headline2"
 						margin="0px 0px 28px 0px"
-						color="--dark"
+						color="--light"
 						lg-text-align="center"
 						lg-margin="0px 0px 18px 0px"
 						sm-font="--headline3"
 					>
-						Who We Are
+						Defeat...or Run!
 					</Text>
 					<Text
 						lg-margin="0px 0px 18px 0px"
 						sm-font="--base"
 						font="--lead"
 						margin="0px 0px 20px 0px"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 						lg-text-align="left"
+						text-align="left"
 					>
-						Qui som?
+						Embark on an epic journey through the realms of danger and excitement with Defeat... or Run! Starting with an easy-medium difficulty, brace yourself for thrilling challenges that will test your skills and courage. From facing menacing creatures to overcoming treacherous obstacles, every step of your adventure will push you to the limit. Are you ready to face the ultimate test of bravery?
 					</Text>
-					<Link
-						href="/about"
-						color="--light"
-						padding="8px 18px 8px 18px"
-						text-align="center"
-						transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-						text-decoration-line="initial"
-						font="--base"
-						letter-spacing="0.5px"
-						margin="9px 0px 0px 0px"
-						background="--color-primary"
-						hover-transform="translateY(-4px)"
-					>
-						Read More
-					</Link>
 				</Box>
 				<Box
-					padding="0px 0px 60% 0px"
 					height="0px"
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-first.svg?v=2020-11-06T16:37:39.391Z) center center/110% no-repeat"
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 					md-order="-1"
 					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-first.svg?v=2020-11-06T16:37:39.391Z) center center/100% no-repeat"
 					margin="0px 0px 0px 0px"
 					lg-order="-1"
+					padding="0px 0px 60% 0px"
+					background="url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/IMG_0062.JPG?v=2024-05-10T10:47:22.832Z) 0% 0%/cover"
 				/>
 			</Box>
 			<Box
@@ -344,10 +326,8 @@ export default (() => {
 					margin="0px 0px 0px 0px"
 					padding="0px 0px 60% 0px"
 					height="0px"
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-second.svg?v=2020-11-06T17:14:59.136Z) center center/110% no-repeat"
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-second.svg?v=2020-11-06T17:14:59.136Z) center center/100% no-repeat"
+					background="rgb(228, 232, 236) url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/2024-05-10%2012.31.07.jpg?v=2024-05-10T10:31:24.758Z) 50% 50% /110% auto no-repeat scroll padding-box"
 				/>
 				<Box
 					display="flex"
@@ -357,31 +337,15 @@ export default (() => {
 					min-height="100px"
 				>
 					<Text
-						lg-text-align="center"
-						quarkly-title="Title"
-						text-transform="uppercase"
-						opacity="0.6"
-						lg-margin="0px 0px 6px 0px"
-						font="--base"
-						margin="0px 0px 10px 0px"
-						letter-spacing="1px"
-						color="--dark"
-					>
-						expertise
-					</Text>
-					<Text
 						font="--headline2"
 						margin="0px 0px 28px 0px"
-						color="--dark"
+						color="--light"
 						lg-text-align="center"
 						lg-margin="0px 0px 18px 0px"
 						sm-font="--headline3"
 						md-font="--headline3"
 					>
-						We're here for{" "}
-						<Em>
-							You
-						</Em>
+						Your Kingdom. Your Rules.
 					</Text>
 					<Text
 						opacity="0.6"
@@ -391,25 +355,10 @@ export default (() => {
 						sm-font="--base"
 						font="--lead"
 						margin="0px 0px 20px 0px"
-						color="--darkL2"
-					>
-						Comunitat petita. Més per la gent. Amistosos. de proximitat.
-					</Text>
-					<Link
 						color="--light"
-						text-align="center"
-						background="--color-primary"
-						transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-						hover-transform="translateY(-4px)"
-						href="/team"
-						text-decoration-line="initial"
-						padding="8px 18px 8px 18px"
-						font="--base"
-						letter-spacing="0.5px"
-						margin="9px 0px 0px 0px"
 					>
-						Read More
-					</Link>
+						Welcome to the heart of the realm, where tranquility reigns supreme in the main kingdom. But the choice is yours – will you uphold the peace or forge your own destiny? Build your own kingdom and become the hero or villain of the server. Shape the land, wield power, and leave your mark on history. Your kingdom, your rules – the fate of the realm lies in your hands.
+					</Text>
 				</Box>
 			</Box>
 			<Box
@@ -431,22 +380,9 @@ export default (() => {
 					align-items="flex-start"
 				>
 					<Text
-						quarkly-title="Title"
-						text-transform="uppercase"
-						lg-text-align="center"
-						margin="0px 0px 10px 0px"
-						letter-spacing="1px"
-						color="--dark"
-						opacity="0.6"
-						lg-margin="0px 0px 6px 0px"
-						font="--base"
-					>
-						CONTACTS
-					</Text>
-					<Text
 						font="--headline2"
 						margin="0px 0px 28px 0px"
-						color="--dark"
+						color="--light"
 						lg-text-align="center"
 						lg-margin="0px 0px 18px 0px"
 						sm-text-align="left"
@@ -458,46 +394,33 @@ export default (() => {
 					<Text
 						font="--lead"
 						margin="0px 0px 20px 0px"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 						lg-text-align="left"
 						lg-margin="0px 0px 18px 0px"
 						sm-font="--base"
 					>
-						First Spain, then Europe...
+						At Where We Work, our passion for Minecraft knows no bounds. Based in Spain, we take pride in offering unparalleled support in both English and Spanish, ensuring a seamless experience for players worldwide. With servers located right here in Spain, enjoy proximity, reliability, and friendly assistance every step of the way. Join us and discover a world where adventure awaits around every corner.
+						<br />
+						<br />
+						<br />
+						<br />
 					</Text>
-					<Link
-						margin="9px 0px 0px 0px"
-						hover-transform="translateY(-4px)"
-						text-decoration-line="initial"
-						padding="8px 18px 8px 18px"
-						font="--base"
-						transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-						text-align="center"
-						href="/contact"
-						color="--light"
-						letter-spacing="0.5px"
-						background="--color-primary"
-					>
-						Read More
-					</Link>
 				</Box>
 				<Box
-					hover-background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-third.svg?v=2020-11-06T17:15:50.700Z) center center/110% no-repeat"
 					lg-order="-1"
 					margin="0px 0px 0px 0px"
 					padding="0px 0px 60% 0px"
 					height="0px"
 					md-order="-1"
 					width="100%"
-					background="--color-lightD2 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-illustration-sea-third.svg?v=2020-11-06T17:15:50.700Z) center center/100% no-repeat"
-					transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
+					background="--color-lightD2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/2024-05-10%2012.39.58.jpg?v=2024-05-10T10:40:16.230Z) center center/cover no-repeat"
 				/>
 			</Box>
 		</Section>
 		<Section
 			sm-padding="24px 0 24px 0"
-			background="--color-lightD1"
+			background="--color-dark"
 			border-style="solid"
 			box-sizing="border-box"
 			justify-content="center"
@@ -522,7 +445,7 @@ export default (() => {
 				lg-margin="0px 0px 6px 0px"
 				quarkly-title="Title"
 				letter-spacing="1px"
-				color="--dark"
+				color="--light"
 				opacity="0.6"
 				text-align="center"
 				lg-text-align="center"
@@ -534,7 +457,7 @@ export default (() => {
 				md-font="--headline3"
 				font="--headline2"
 				margin="0px 0px 64px 0px"
-				color="--dark"
+				color="--light"
 				text-align="center"
 				lg-text-align="center"
 				lg-margin="0px 0px 36px 0px"
@@ -555,9 +478,9 @@ export default (() => {
 						md-text-align="left"
 						font="--lead"
 						margin="0px 0px 0px 0px"
-						color="--dark"
+						color="--light"
 					>
-						Have any questions?
+						Is it Free?
 					</Text>
 					<Text
 						text-align="center"
@@ -565,22 +488,22 @@ export default (() => {
 						md-text-align="left"
 						sm-margin="8px 0px 0px 0px"
 						font="--base"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 						lg-text-align="center"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						Yes, Enchanted Realms is completely free to play! Dive into the enchanting world of Minecraft without any cost.
 					</Text>
 				</Box>
 				<Box>
 					<Text
 						margin="0px 0px 0px 0px"
-						color="--dark"
+						color="--light"
 						text-align="center"
 						md-text-align="left"
 						font="--lead"
 					>
-						Have any questions?
+						How can I play?
 					</Text>
 					<Text
 						lg-text-align="center"
@@ -589,25 +512,25 @@ export default (() => {
 						md-text-align="left"
 						sm-margin="8px 0px 0px 0px"
 						font="--base"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						You can play Enchanted Realms from anywhere with an internet connection. Simply connect to our servers and start your adventure! Please note that the speed of your connection may affect gameplay, so ensure you have a stable internet connection for the best experience. Enchanted Realms is compatible with Mac, Windows, and Linux operating systems. However, please note that our servers do not support consoles or mobile devices at this time.
 					</Text>
 				</Box>
 				<Box>
 					<Text
-						color="--dark"
+						color="--light"
 						text-align="center"
 						md-text-align="left"
 						font="--lead"
 						margin="0px 0px 0px 0px"
 					>
-						Have any questions?
+						How can I talk to people?
 					</Text>
 					<Text
 						font="--base"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 						lg-text-align="center"
 						text-align="center"
@@ -615,18 +538,18 @@ export default (() => {
 						md-text-align="left"
 						sm-margin="8px 0px 0px 0px"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						Communication is key at Enchanted Realms! You can interact with other players through our Discord server, where you can join discussions, make friends, and stay updated on server events. Additionally, our servers feature enabled proximity chat, adding a touch of realism and immersion to your gameplay experience. We highly recommend using proximity chat for a more immersive adventure!
 					</Text>
 				</Box>
 				<Box>
 					<Text
 						font="--lead"
 						margin="0px 0px 0px 0px"
-						color="--dark"
+						color="--light"
 						text-align="center"
 						md-text-align="left"
 					>
-						Have any questions?
+						Can I do...?
 					</Text>
 					<Text
 						lg-text-align="center"
@@ -635,15 +558,21 @@ export default (() => {
 						md-text-align="left"
 						sm-margin="8px 0px 0px 0px"
 						font="--base"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						Before diving into any actions that may impact your gameplay experience, we encourage you to familiarize yourself with our rules and guidelines. These can be found on our website and Discord server. If you have any questions or concerns, don't hesitate to reach out to our moderators for assistance. Remember, following the rules ensures a fair and enjoyable experience for all players.
 					</Text>
 				</Box>
 			</Box>
 		</Section>
-		<Section padding="80px 0 80px 0" quarkly-title="Customers" lg-padding="50px 0 50px 0" justify-content="center">
+		<Section
+			padding="80px 0 80px 0"
+			quarkly-title="Customers"
+			lg-padding="50px 0 50px 0"
+			justify-content="center"
+			background="#000000"
+		>
 			<Override
 				slot="SectionContent"
 				min-width="auto"
@@ -653,20 +582,6 @@ export default (() => {
 				md-margin="0px 16px 0px 16px"
 			/>
 			<Text
-				color="--dark"
-				text-align="center"
-				lg-margin="0px 0px 6px 0px"
-				text-transform="uppercase"
-				lg-text-align="center"
-				quarkly-title="Title"
-				font="--base"
-				margin="0px 0px 10px 0px"
-				letter-spacing="1px"
-				opacity="0.6"
-			>
-				...WE WORK WITH...
-			</Text>
-			<Text
 				text-align="center"
 				lg-text-align="center"
 				sm-margin="0px 0px 48px 0px"
@@ -674,9 +589,9 @@ export default (() => {
 				md-font="--headline3"
 				font="--headline2"
 				margin="0px 0px 64px 0px"
-				color="--dark"
+				color="--light"
 			>
-				SERVER
+				...WE WORK WITH...
 			</Text>
 			<Box
 				lg-grid-template-columns="repeat(6, 1fr)"
@@ -692,26 +607,28 @@ export default (() => {
 					lg-grid-column="1 / span 2"
 					sm-grid-column="auto / auto"
 					sm-display="flex"
+					color="#ffffff"
 				>
 					<Icon
 						category="di"
-						icon={DiBootstrap}
+						icon={DiJava}
 						margin="0px auto 0px auto"
 						size="84px"
 						lg-font="64px sans-serif"
 						sm-margin="0px 13px 0px 0px"
 						sm-font="48px sans-serif"
+						color="#ee3b3b"
 					/>
 					<Text
 						md-margin="16px 0px 0px 0px"
 						sm-margin="0px 0px 0px 0px"
 						font="--base"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 						lg-text-align="center"
 						text-align="center"
 					>
-						Company Name
+						Java / Oracle
 					</Text>
 				</Box>
 				<Box
@@ -727,19 +644,20 @@ export default (() => {
 						sm-margin="0px 13px 0px 0px"
 						sm-font="48px sans-serif"
 						category="di"
-						icon={DiBingSmall}
+						icon={DiUbuntu}
 						margin="0px auto 0px auto"
+						color="#ff7200"
 					/>
 					<Text
 						text-align="center"
 						md-margin="16px 0px 0px 0px"
 						sm-margin="0px 0px 0px 0px"
 						font="--base"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 						lg-text-align="center"
 					>
-						Company Name
+						Ubuntu Server
 					</Text>
 				</Box>
 				<Box
@@ -752,22 +670,23 @@ export default (() => {
 					<Icon
 						sm-font="48px sans-serif"
 						category="di"
-						icon={DiCssTricks}
+						icon={DiWindows}
 						margin="0px auto 0px auto"
 						size="84px"
 						lg-font="64px sans-serif"
 						sm-margin="0px 13px 0px 0px"
+						color="#19aee3"
 					/>
 					<Text
 						font="--base"
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 						lg-text-align="center"
 						text-align="center"
 						md-margin="16px 0px 0px 0px"
 						sm-margin="0px 0px 0px 0px"
 					>
-						Company Name
+						Windows
 					</Text>
 				</Box>
 				<Box
@@ -778,16 +697,17 @@ export default (() => {
 					sm-margin="0px 0px 0px 20px"
 				>
 					<Icon
-						icon={DiEnvato}
+						icon={FaDiscord}
 						margin="0px auto 0px auto"
 						size="84px"
 						lg-font="64px sans-serif"
 						sm-margin="0px 13px 0px 0px"
 						sm-font="48px sans-serif"
-						category="di"
+						category="fa"
+						color="#7a00ff"
 					/>
 					<Text
-						color="--darkL2"
+						color="--light"
 						opacity="0.6"
 						lg-text-align="center"
 						text-align="center"
@@ -795,7 +715,7 @@ export default (() => {
 						sm-margin="0px 0px 0px 0px"
 						font="--base"
 					>
-						Company Name
+						Discord
 					</Text>
 				</Box>
 				<Box
@@ -813,6 +733,7 @@ export default (() => {
 						icon={DiGithubBadge}
 						margin="0px auto 0px auto"
 						size="84px"
+						color="#a800ff"
 					/>
 					<Text
 						opacity="0.6"
@@ -821,9 +742,9 @@ export default (() => {
 						md-margin="16px 0px 0px 0px"
 						sm-margin="0px 0px 0px 0px"
 						font="--base"
-						color="--darkL2"
+						color="--light"
 					>
-						Company Name
+						Github
 					</Text>
 				</Box>
 			</Box>
@@ -834,6 +755,7 @@ export default (() => {
 			lg-padding="50px 0 25px 0"
 			lg-height="auto"
 			justify-content="center"
+			background="#000000"
 		>
 			<Override
 				slot="SectionContent"
@@ -841,6 +763,8 @@ export default (() => {
 				min-width="auto"
 				width="100%"
 				margin="0px 32px 0px 32px"
+				background="rgba(0, 0, 0, 0)"
+				align-self="auto"
 			/>
 			<Box
 				justify-content="center"
@@ -851,7 +775,7 @@ export default (() => {
 				align-items="center"
 				sm-min-height="280px"
 				display="flex"
-				background="linear-gradient(180deg,rgba(24, 29, 34, 0.5) 0%,transparent 100%) 0 0 no-repeat,--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-fireworks.svg?v=2020-11-06T17:22:27.801Z) center center/cover no-repeat"
+				background="linear-gradient(180deg,rgba(24, 29, 34, 0.5) 0%,transparent 100%) 0 0 no-repeat,--color-lightD1 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/52BD9432-842A-42AD-B498-988926A5D8CB_1_105_c.jpeg?v=2024-05-10T09:50:48.471Z) center center/cover no-repeat"
 				lg-min-height="420px"
 			>
 				<Text

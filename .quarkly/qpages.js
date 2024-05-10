@@ -2,7 +2,7 @@ module.exports = [
 	"/index/",
 	"/about/",
 	"/team/",
-	"/contact/",
+	"/guide/",
 	"/404/",
 	"/",
 	"/404.html"
