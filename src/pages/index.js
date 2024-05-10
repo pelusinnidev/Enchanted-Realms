@@ -186,15 +186,21 @@ export default (() => {
 				flex="0 1 auto"
 				order="0"
 				align-self="auto"
+				sm-align-items="end"
+				sm-justify-items="center"
+				sm-background="url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z) 0% 0%/contain no-repeat"
 			/>
 			<Text
 				font="--headline1"
 				margin="350px 0px 0px 0px"
 				sm-text-align="center"
-				sm-width="80%"
+				sm-width="100% border-box"
 				lg-text-align="center"
 				lg-font="--headline2"
 				color="--light"
+				lg-padding="0px 0px 75px 0px"
+				md-padding="0px 0px 0px 0px"
+				md-margin="350px 0px 100px 0px"
 			>
 				Enchant Your Way.
 			</Text>
