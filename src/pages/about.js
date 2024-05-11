@@ -86,6 +86,7 @@ export default (() => {
 					md-left={0}
 					padding="0px 0 0px 0"
 					align-items="center"
+					sm-background="#000000"
 				>
 					<Override
 						slot="item-index"
@@ -152,6 +153,8 @@ export default (() => {
 						border-width="2px"
 						border-style="solid"
 						margin="0px 0px 0px 15px"
+						sm-width="120px"
+						sm-margin="0px 10px 10px 15px"
 					/>
 					<Override slot="link-about" sm-background="#000000" sm-color="#ffffff" color="--light" />
 					<Override
@@ -162,6 +165,8 @@ export default (() => {
 						border-width="2px"
 						border-style="solid"
 						margin="0px 15px 0px 0px"
+						sm-width="120px"
+						sm-margin="0px 15px 15px 16px"
 					/>
 					<Override slot="link-index" sm-background="#000000" sm-color="#ffffff" />
 					<Override slot="link-404" sm-background="#000000" sm-color="#ffffff" />
@@ -169,7 +174,13 @@ export default (() => {
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 			</Components.BurgerMenu>
 		</Section>
-		<Section quarkly-title="Hero" padding="25px 0 75px 0" lg-padding="25px 0 25px 0" justify-content="center">
+		<Section
+			quarkly-title="Hero"
+			padding="25px 0 75px 0"
+			lg-padding="25px 0 25px 0"
+			justify-content="center"
+			background="#000000"
+		>
 			<Override
 				slot="SectionContent"
 				min-width="auto"
@@ -207,7 +218,7 @@ export default (() => {
 		</Section>
 		<Section
 			padding="90px 0px 100px 0px"
-			background="--color-lightD1"
+			background="--color-dark"
 			border-style="solid"
 			lg-padding="50px 0px 50px 0px"
 			justify-content="center"
@@ -233,7 +244,7 @@ export default (() => {
 				margin="0px 0px 10px 0px"
 				lg-text-align="center"
 				font="--base"
-				color="--dark"
+				color="--light"
 				lg-margin="0px 0px 6px 0px"
 				quarkly-title="Title"
 				text-transform="uppercase"
@@ -243,7 +254,7 @@ export default (() => {
 			</Text>
 			<Text
 				letter-spacing="1px"
-				color="--dark"
+				color="--light"
 				text-align="center"
 				width="85%"
 				lg-font="--lead"
@@ -261,6 +272,7 @@ export default (() => {
 			xl-padding="100px 0px 100px 0px"
 			lg-padding="50px 0px 50px 0px"
 			justify-content="center"
+			background="#000000"
 		>
 			<Override
 				slot="SectionContent"
@@ -275,12 +287,13 @@ export default (() => {
 				lg-margin="0px 0px 6px 0px"
 				quarkly-title="Title"
 				margin="0px 0px 10px 0px"
-				color="--dark"
+				color="--light"
 				opacity="0.6"
 				text-align="center"
 				text-transform="uppercase"
 				lg-text-align="center"
 				font="--base"
+				background="#000000"
 			>
 				WHAT WE DO BEST
 			</Text>
@@ -290,9 +303,10 @@ export default (() => {
 				sm-margin="0px 0px 36px 0px"
 				font="--headline2"
 				margin="0px 0px 72px 0px"
-				color="--dark"
+				color="--light"
 				text-align="center"
 				lg-text-align="center"
+				background="#000000"
 			>
 				Our Services
 			</Text>
@@ -313,7 +327,7 @@ export default (() => {
 						font="36px sans-serif"
 						color="--primary"
 					/>
-					<Text color="--darkL2" font="--lead" margin="0px 0px 10px 0px" display="inline-block">
+					<Text color="--light" font="--lead" margin="0px 0px 10px 0px" display="inline-block">
 						High Quality
 					</Text>
 					<Text
@@ -323,7 +337,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						opacity="0.6"
-						color="--darkL2"
+						color="--light"
 					>
 						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
 					</Text>
@@ -337,12 +351,12 @@ export default (() => {
 						font="36px sans-serif"
 						color="--primary"
 					/>
-					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--darkL2">
+					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--light">
 						Best Support
 					</Text>
 					<Text
 						opacity="0.6"
-						color="--darkL2"
+						color="--light"
 						lg-text-align="center"
 						text-align="center"
 						font="--base"
@@ -361,7 +375,7 @@ export default (() => {
 						size="82px"
 						margin="0px 0px 19px 0px"
 					/>
-					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--darkL2">
+					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--light">
 						Personal Approach
 					</Text>
 					<Text
@@ -370,7 +384,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						opacity="0.6"
-						color="--darkL2"
+						color="--light"
 						lg-text-align="center"
 					>
 						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
@@ -385,7 +399,7 @@ export default (() => {
 						font="36px sans-serif"
 						color="--primary"
 					/>
-					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--darkL2">
+					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--light">
 						Flexible Schedule
 					</Text>
 					<Text
@@ -393,7 +407,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						opacity="0.6"
-						color="--darkL2"
+						color="--light"
 						lg-text-align="center"
 						text-align="center"
 					>
@@ -409,14 +423,14 @@ export default (() => {
 						size="82px"
 						margin="0px 0px 19px 0px"
 					/>
-					<Text color="--darkL2" font="--lead" margin="0px 0px 10px 0px" display="inline-block">
+					<Text color="--light" font="--lead" margin="0px 0px 10px 0px" display="inline-block">
 						Extensive Experience
 					</Text>
 					<Text
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						opacity="0.6"
-						color="--darkL2"
+						color="--light"
 						lg-text-align="center"
 						text-align="center"
 						font="--base"
@@ -433,7 +447,7 @@ export default (() => {
 						margin="0px 0px 19px 0px"
 						font="36px sans-serif"
 					/>
-					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--darkL2">
+					<Text font="--lead" margin="0px 0px 10px 0px" display="inline-block" color="--light">
 						Better Efficiency
 					</Text>
 					<Text
@@ -441,7 +455,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 						opacity="0.6"
-						color="--darkL2"
+						color="--light"
 						lg-text-align="center"
 						text-align="center"
 					>
@@ -453,13 +467,14 @@ export default (() => {
 		<Section
 			padding="80px 0px 80px 0px"
 			quarkly-title="About"
-			background="--color-lightD1"
+			background="--color-dark"
 			lg-padding="50px 0px 50px 0px"
 			justify-content="center"
 			box-sizing="border-box"
 			border-width="1px 0px 1px 0px"
 			border-style="solid"
 			border-color="--color-lightD2"
+			color="#ffffff"
 		>
 			<Override
 				slot="SectionContent"
@@ -477,7 +492,7 @@ export default (() => {
 				lg-grid-template-columns="1fr"
 			>
 				<Text
-					color="--darkL2"
+					color="--light"
 					lg-margin="0px 0px 0px 0px"
 					md-font="--lead"
 					font="--headline3"
@@ -489,7 +504,7 @@ export default (() => {
 				<Text
 					display="inline-block"
 					opacity="0.6"
-					color="--darkL2"
+					color="--light"
 					lg-text-align="left"
 					text-align="left"
 					font="--base"
@@ -501,7 +516,7 @@ export default (() => {
 					margin="0px 0px 0px 0px"
 					display="inline-block"
 					opacity="0.6"
-					color="--darkL2"
+					color="--light"
 					lg-text-align="left"
 					text-align="left"
 					font="--base"
@@ -516,6 +531,8 @@ export default (() => {
 			lg-height="auto"
 			justify-content="center"
 			quarkly-title="USP"
+			background="#000000"
+			color="#ffffff"
 		>
 			<Override
 				slot="SectionContent"

@@ -73,6 +73,7 @@ export default (() => {
 					display="flex"
 					md-left={0}
 					md-width="100%"
+					sm-background="#000000"
 				>
 					<Override
 						slot="item"
@@ -128,9 +129,18 @@ export default (() => {
 						border-width="2px"
 						border-style="solid"
 						margin="0px 15px 0px 0px"
+						sm-margin="0px 15px 15px 16px"
+						sm-width="120px"
 					/>
-					<Override slot="link-about" color="#ffffff" background="#000000" />
-					<Override slot="item-team" border-width="2px" border-style="solid" margin="0px 0px 0px 15px" />
+					<Override slot="link-about" color="#ffffff" background="#000000" sm-color="#ffffff" />
+					<Override
+						slot="item-team"
+						border-width="2px"
+						border-style="solid"
+						margin="0px 0px 0px 15px"
+						sm-margin="0px 10px 10px 15px"
+						sm-width="120px"
+					/>
 					<Override slot="link-team" color="#ffffff" background="#000000" />
 				</Override>
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />

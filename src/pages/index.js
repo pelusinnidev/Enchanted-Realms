@@ -133,7 +133,7 @@ export default (() => {
 						sm-margin="15px 10px 0px 15px"
 						sm-width="120px"
 					/>
-					<Override slot="link-team" color="--light" />
+					<Override slot="link-team" color="--light" sm-color="#ffffff" />
 					<Override
 						slot="item-contact"
 						color="#fcfcfc"
