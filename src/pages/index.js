@@ -186,6 +186,8 @@ export default (() => {
 				width="100%"
 				margin="0px 32px 0px 32px"
 				md-margin="0px 16px 0px 16px"
+				sm-align-self="auto"
+				sm-flex="0 1 auto"
 			/>
 			<Box
 				align-items="center"
@@ -197,7 +199,7 @@ export default (() => {
 				width="100%"
 				min-height="480px"
 				height="240px"
-				sm-background="--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2012.57.52.png?v=2024-05-11T10:58:03.321Z) 0% 0%/cover"
+				sm-background="--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2013.05.44.png?v=2024-05-11T11:05:55.915Z) 0% 0%/cover"
 				flex="0 1 auto"
 				align-self="auto"
 			/>
