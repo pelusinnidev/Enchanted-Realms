@@ -199,7 +199,7 @@ export default (() => {
 				width="100%"
 				min-height="480px"
 				height="240px"
-				sm-background="--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2013.05.44.png?v=2024-05-11T11:05:55.915Z) 0% 0%/cover"
+				sm-background="--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2013.18.07.png?v=2024-05-11T11:18:22.566Z) 0% 0%/cover"
 				flex="0 1 auto"
 				align-self="auto"
 			/>
