@@ -306,6 +306,40 @@ export default (() => {
 						</Text>
 					</Box>
 				</Box>
+				<Box flex-direction="column" align-items="flex-start" display="flex">
+					<Box
+						width="100%"
+						quarkly-title="Image"
+						padding="0px 0px 121% 0px"
+						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
+						background="--color-lightD1 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2010.36.33.png?v=2024-05-11T08:36:53.338Z) center center/cover no-repeat"
+					/>
+					<Box sm-width="100%" sm-margin="12px 0px 0px 0px">
+						<Text
+							margin="24px 0px 8px 0px"
+							quarkly-title="Name"
+							md-font="--lead"
+							text-align="left"
+							font="--headline3"
+							sm-margin="0px 0px 4px 0px"
+							lg-margin="12px 0px 8px 0px"
+							md-margin="8px 0px 2px 0px"
+							color="--light"
+						>
+							@Presidente
+						</Text>
+						<Text
+							color="--light"
+							quarkly-title="Position"
+							text-align="left"
+							font="--base"
+							margin="0px 0px 0px 0px"
+							opacity="0.6"
+						>
+							Lead Administrador
+						</Text>
+					</Box>
+				</Box>
 				<Box align-items="flex-start" display="flex" flex-direction="column">
 					<Box
 						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
@@ -336,41 +370,7 @@ export default (() => {
 							margin="0px 0px 0px 0px"
 							text-align="left"
 						>
-							Lead Designer & Mod Chooser
-						</Text>
-					</Box>
-				</Box>
-				<Box flex-direction="column" align-items="flex-start" display="flex">
-					<Box
-						width="100%"
-						quarkly-title="Image"
-						padding="0px 0px 121% 0px"
-						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-						background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-man.svg?v=2020-11-06T17:32:03.825Z) center center/100% no-repeat"
-					/>
-					<Box sm-width="100%" sm-margin="12px 0px 0px 0px">
-						<Text
-							margin="24px 0px 8px 0px"
-							quarkly-title="Name"
-							md-font="--lead"
-							text-align="left"
-							font="--headline3"
-							sm-margin="0px 0px 4px 0px"
-							lg-margin="12px 0px 8px 0px"
-							md-margin="8px 0px 2px 0px"
-							color="--light"
-						>
-							@Presidente
-						</Text>
-						<Text
-							color="--light"
-							quarkly-title="Position"
-							text-align="left"
-							font="--base"
-							margin="0px 0px 0px 0px"
-							opacity="0.6"
-						>
-							Lead Administrador
+							Lead Server Modding
 						</Text>
 					</Box>
 				</Box>
