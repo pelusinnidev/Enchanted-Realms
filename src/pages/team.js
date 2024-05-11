@@ -242,6 +242,7 @@ export default (() => {
 				align-items="center"
 				lg-min-height="420px"
 				md-min-height="360px"
+				sm-background="--color-lightD1 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2013.09.17.png?v=2024-05-11T11:09:33.496Z) center center/cover no-repeat"
 			>
 				<Text
 					font="--lead"
@@ -251,6 +252,7 @@ export default (() => {
 					color="--light"
 					max-width="720px"
 					margin="16px 0px 170px 0px"
+					sm-margin="16px 0px 120px 0px"
 				>
 					Made by
 				</Text>
@@ -261,6 +263,7 @@ export default (() => {
 					color="--green"
 					md-font="--headline3"
 					margin="200px 0px 16px 0px"
+					sm-margin="120px 0px 16px 0px"
 				>
 					<Em>
 						Prismarine Foundation
