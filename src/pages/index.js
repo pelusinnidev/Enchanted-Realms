@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Section, Text, Box, Icon, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Text, Box, Icon, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -789,44 +789,15 @@ export default (() => {
 				<Text
 					color="--light"
 					md-font="--headline3"
-					margin="10px 0px 15px 0px"
-					font="--headline2"
+					margin="10px 0px 275px 0px"
+					font="--headline1"
 					text-align="center"
 					quarkly-title="Title"
 				>
-					Don't wait. Just Join.
+					<Em>
+						Don't wait. Just Join.
+					</Em>
 				</Text>
-				<Text
-					opacity="0.6"
-					text-align="center"
-					quarkly-title="Description"
-					color="--light"
-					max-width="720px"
-					margin="0px 0px 28px 0px"
-					font="--lead"
-				>
-					Follow these steps to join our adventure
-				</Text>
-				<Button
-					z-index="5"
-					hover-opacity=".85"
-					margin="10px auto 0px auto"
-					width="fit-content"
-					font="--lead"
-					letter-spacing="0.5px"
-					background="--color-light"
-					opacity="1"
-					focus-box-shadow="none"
-					hover-box-shadow="none"
-					color="--darkL2"
-					padding="8px 36px 8px 36px"
-					transition="opacity .15s ease 0s"
-					position="relative"
-					active-box-shadow="none"
-					md-font="--base"
-				>
-					Start Now
-				</Button>
 			</Box>
 		</Section>
 		<Link

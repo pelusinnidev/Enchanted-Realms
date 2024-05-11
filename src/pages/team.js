@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Section, Text, Box, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Text, Box } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -142,7 +142,13 @@ export default (() => {
 				/>
 			</Components.BurgerMenu>
 		</Section>
-		<Section quarkly-title="Hero" padding="25px 0 75px 0" lg-padding="25px 0 25px 0" justify-content="center">
+		<Section
+			quarkly-title="Hero"
+			padding="25px 0 75px 0"
+			lg-padding="25px 0 25px 0"
+			justify-content="center"
+			background="#000000"
+		>
 			<Override
 				slot="SectionContent"
 				min-width="auto"
@@ -174,7 +180,7 @@ export default (() => {
 					sm-font="normal 900 42px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
 					text-align="center"
 				>
-					Team.
+					Meet the Team.
 				</Text>
 			</Box>
 		</Section>
@@ -186,7 +192,7 @@ export default (() => {
 			padding="90px 0px 100px 0px"
 			border-style="solid"
 			box-sizing="border-box"
-			background="--color-lightD1"
+			background="--color-dark"
 			border-color="--color-lightD2"
 			lg-padding="50px 0px 50px 0px"
 		>
@@ -200,21 +206,7 @@ export default (() => {
 				margin="0px 32px 0px 32px"
 			/>
 			<Text
-				font="--base"
-				letter-spacing="1px"
-				margin="0px 0px 10px 0px"
-				color="--dark"
-				lg-text-align="center"
-				quarkly-title="Title"
-				text-align="center"
-				opacity="0.6"
-				lg-margin="0px 0px 6px 0px"
-				text-transform="uppercase"
-			>
-				Who we are
-			</Text>
-			<Text
-				color="--dark"
+				color="--light"
 				text-align="center"
 				width="85%"
 				lg-font="--lead"
@@ -223,7 +215,7 @@ export default (() => {
 				margin="0px 0px 0px 0px"
 				letter-spacing="1px"
 			>
-				We’re a group of creatives who've built a business to make the world a better place.
+				United by Passion, Dedicated to Excellence: The Trio Crafting the Ultimate Minecraft Experience
 			</Text>
 		</Section>
 		<Section
@@ -232,6 +224,7 @@ export default (() => {
 			padding="80px 0px 60px 0px"
 			quarkly-title="Team"
 			box-sizing="border-box"
+			background="#000000"
 		>
 			<Override
 				slot="SectionContent"
@@ -240,20 +233,22 @@ export default (() => {
 				margin="0px 32px 0px 32px"
 				md-margin="0px 16px 0px 16px"
 				min-width="auto"
+				background="#000000"
 			/>
 			<Text
 				letter-spacing="1px"
 				margin="0px 0px 10px 0px"
-				color="--dark"
+				color="--light"
 				text-transform="uppercase"
 				text-align="center"
 				font="--base"
 				opacity="0.5"
+				background="#000000"
 			>
 				Meet Us
 			</Text>
 			<Text
-				color="--dark"
+				color="--light"
 				md-margin="0px 0px 32px 0px"
 				font="--headline2"
 				letter-spacing="1px"
@@ -263,7 +258,7 @@ export default (() => {
 				margin="0px 0px 72px 0px"
 				text-align="center"
 			>
-				Our World-Class Team
+				...Here we Are...
 			</Text>
 			<Box
 				sm-grid-template-columns="1fr"
@@ -277,46 +272,44 @@ export default (() => {
 				<Box display="flex" flex-direction="column" align-items="flex-start">
 					<Box
 						padding="0px 0px 121% 0px"
-						hover-background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-man.svg?v=2020-11-06T17:32:03.825Z) center center/110% no-repeat"
 						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-						background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-man.svg?v=2020-11-06T17:32:03.825Z) center center/100% no-repeat"
+						background="--color-lightD1 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2009.42.34.png?v=2024-05-11T07:43:00.355Z) center center/cover no-repeat"
 						width="100%"
 						quarkly-title="Image"
 					/>
-					<Box sm-margin="12px 0px 0px 0px" sm-width="100%">
+					<Box sm-margin="12px 0px 0px 0px" sm-width="100%" color="#ffffff">
 						<Text
 							font="--headline3"
 							margin="24px 0px 8px 0px"
 							text-align="left"
 							lg-margin="12px 0px 8px 0px"
 							md-margin="8px 0px 2px 0px"
-							color="--dark"
+							color="--light"
 							quarkly-title="Name"
 							sm-margin="0px 0px 4px 0px"
 							md-font="--lead"
 						>
-							Nathan K. Joe
+							@Pelusinni05
 						</Text>
 						<Text
 							margin="0px 0px 0px 0px"
 							text-align="left"
 							opacity="0.6"
-							color="--dark"
+							color="--light"
 							quarkly-title="Position"
 							font="--base"
 						>
-							Founder
+							Founder & CEO
 						</Text>
 					</Box>
 				</Box>
 				<Box align-items="flex-start" display="flex" flex-direction="column">
 					<Box
-						hover-background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-woman.svg?v=2020-11-06T17:32:24.681Z) center center/110% no-repeat"
 						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-						background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-woman.svg?v=2020-11-06T17:32:24.681Z) center center/100% no-repeat"
 						width="100%"
 						quarkly-title="Image"
 						padding="0px 0px 121% 0px"
+						background="--color-lightD1 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2009.42.21.png?v=2024-05-11T07:43:13.941Z) center center/cover no-repeat"
 					/>
 					<Box sm-width="100%" sm-margin="12px 0px 0px 0px">
 						<Text
@@ -325,22 +318,22 @@ export default (() => {
 							text-align="left"
 							quarkly-title="Name"
 							md-font="--lead"
-							color="--dark"
+							color="--light"
 							sm-margin="0px 0px 4px 0px"
 							lg-margin="12px 0px 8px 0px"
 							md-margin="8px 0px 2px 0px"
 						>
-							Claire R. Peery
+							@Dr.Helix
 						</Text>
 						<Text
 							opacity="0.6"
-							color="--dark"
+							color="--light"
 							quarkly-title="Position"
 							font="--base"
 							margin="0px 0px 0px 0px"
 							text-align="left"
 						>
-							Lead Designer
+							Lead Designer & Mod Chooser
 						</Text>
 					</Box>
 				</Box>
@@ -349,7 +342,6 @@ export default (() => {
 						width="100%"
 						quarkly-title="Image"
 						padding="0px 0px 121% 0px"
-						hover-background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-man.svg?v=2020-11-06T17:32:03.825Z) center center/110% no-repeat"
 						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
 						background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-man.svg?v=2020-11-06T17:32:03.825Z) center center/100% no-repeat"
 					/>
@@ -363,330 +355,21 @@ export default (() => {
 							sm-margin="0px 0px 4px 0px"
 							lg-margin="12px 0px 8px 0px"
 							md-margin="8px 0px 2px 0px"
-							color="--dark"
+							color="--light"
 						>
-							David R. Lema
+							@Presidente
 						</Text>
 						<Text
-							color="--dark"
+							color="--light"
 							quarkly-title="Position"
 							text-align="left"
 							font="--base"
 							margin="0px 0px 0px 0px"
 							opacity="0.6"
 						>
-							Developer
+							Lead Administrador
 						</Text>
 					</Box>
-				</Box>
-				<Box display="flex" flex-direction="column" align-items="flex-start">
-					<Box
-						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-						background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-woman.svg?v=2020-11-06T17:32:24.681Z) center center/100% no-repeat"
-						width="100%"
-						quarkly-title="Image"
-						padding-bottom="(4 / 3) * 100%"
-						padding="0px 0px 121% 0px"
-						hover-background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-woman.svg?v=2020-11-06T17:32:24.681Z) center center/110% no-repeat"
-					/>
-					<Box sm-margin="12px 0px 0px 0px" sm-width="100%">
-						<Text
-							color="--dark"
-							sm-margin="0px 0px 4px 0px"
-							lg-margin="12px 0px 8px 0px"
-							font="--headline3"
-							margin="24px 0px 8px 0px"
-							text-align="left"
-							quarkly-title="Name"
-							md-margin="8px 0px 2px 0px"
-							md-font="--lead"
-						>
-							Janet E. Morey
-						</Text>
-						<Text
-							font="--base"
-							margin="0px 0px 0px 0px"
-							text-align="left"
-							opacity="0.6"
-							color="--dark"
-							quarkly-title="Position"
-							md-margin="0px 0px 0px 0px"
-						>
-							HR
-						</Text>
-					</Box>
-				</Box>
-				<Box align-items="flex-start" display="flex" flex-direction="column">
-					<Box
-						quarkly-title="Image"
-						padding="0px 0px 121% 0px"
-						hover-background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-man.svg?v=2020-11-06T17:32:03.825Z) center center/110% no-repeat"
-						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-						padding-bottom="(4 / 3) * 100%"
-						background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-man.svg?v=2020-11-06T17:32:03.825Z) center center/100% no-repeat"
-						width="100%"
-					/>
-					<Box sm-margin="12px 0px 0px 0px" sm-width="100%">
-						<Text
-							md-margin="8px 0px 2px 0px"
-							sm-margin="0px 0px 4px 0px"
-							lg-margin="12px 0px 8px 0px"
-							quarkly-title="Name"
-							margin="24px 0px 8px 0px"
-							text-align="left"
-							color="--dark"
-							md-font="--lead"
-							font="--headline3"
-						>
-							Harry S. Lyons
-						</Text>
-						<Text
-							font="--base"
-							margin="0px 0px 0px 0px"
-							text-align="left"
-							opacity="0.6"
-							color="--dark"
-							quarkly-title="Position"
-							md-margin="0px 0px 0px 0px"
-						>
-							CEO
-						</Text>
-					</Box>
-				</Box>
-				<Box flex-direction="column" align-items="flex-start" display="flex">
-					<Box
-						padding-bottom="(4 / 3) * 100%"
-						background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-woman.svg?v=2020-11-06T17:32:24.681Z) center center/100% no-repeat"
-						width="100%"
-						quarkly-title="Image"
-						padding="0px 0px 121% 0px"
-						hover-background="--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-user-woman.svg?v=2020-11-06T17:32:24.681Z) center center/110% no-repeat"
-						transition="background --transitionDuration-normal --transitionTimingFunction-easeInOut 0s"
-					/>
-					<Box sm-margin="12px 0px 0px 0px" sm-width="100%">
-						<Text
-							margin="24px 0px 8px 0px"
-							md-margin="8px 0px 2px 0px"
-							md-font="--lead"
-							font="--headline3"
-							color="--dark"
-							quarkly-title="Name"
-							sm-margin="0px 0px 4px 0px"
-							lg-margin="12px 0px 8px 0px"
-							text-align="left"
-						>
-							Sherri J. Young
-						</Text>
-						<Text
-							font="--base"
-							margin="0px 0px 0px 0px"
-							opacity="0.6"
-							color="--dark"
-							quarkly-title="Position"
-							md-margin="0px 0px 0px 0px"
-						>
-							CTO
-						</Text>
-					</Box>
-				</Box>
-			</Box>
-		</Section>
-		<Section
-			padding="60px 0px 60px 0px"
-			quarkly-title="About"
-			background="--color-lightD1"
-			border-style="solid"
-			border-color="--color-lightD2"
-			box-sizing="border-box"
-			sm-padding="50px 0 50px 0"
-			border-width="1px 0px 1px 0px"
-			lg-padding="50px 0px 50px 0px"
-			justify-content="center"
-		>
-			<Override
-				slot="SectionContent"
-				width="100%"
-				margin="0px 32px 0px 32px"
-				md-margin="0px 16px 0px 16px"
-				min-width="auto"
-				align-items="stretch"
-			/>
-			<Box
-				width="100%"
-				display="grid"
-				grid-gap="32px"
-				grid-template-columns="3fr 1fr 1fr 1fr 1fr"
-				xl-grid-template-columns="2fr 1fr 1fr 1fr 1fr"
-				md-grid-template-columns="repeat(4, 1fr)"
-				sm-grid-template-columns="1fr"
-			>
-				<Box
-					sm-grid-column="auto / auto"
-					sm-flex-direction="row"
-					sm-align-items="center"
-					display="flex"
-					flex-direction="column"
-					md-grid-column="1 / span 4"
-					md-align-items="flex-start"
-				>
-					<Text
-						lg-font="--headline2"
-						sm-font="--headline2"
-						sm-margin="0px 12px 0px 0px"
-						font="--headline1"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						color="--primary"
-					>
-						51
-					</Text>
-					<Text
-						color="--primary"
-						text-align="left"
-						sm-font="--lead"
-						font="--lead"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						opacity="0.6"
-					>
-						Total employees
-					</Text>
-				</Box>
-				<Box
-					flex-direction="column"
-					align-items="flex-end"
-					md-align-items="flex-start"
-					sm-flex-direction="row"
-					sm-align-items="center"
-					display="flex"
-				>
-					<Text
-						lg-text-align="center"
-						text-align="left"
-						lg-font="--headline2"
-						sm-font="--headline2"
-						sm-margin="0px 12px 0px 0px"
-						font="--headline1"
-						margin="0px 0px 0px 0px"
-						color="--dark"
-					>
-						10
-					</Text>
-					<Text
-						color="--darkL2"
-						lg-text-align="center"
-						text-align="left"
-						sm-font="--lead"
-						font="--lead"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						opacity="0.6"
-					>
-						designers
-					</Text>
-				</Box>
-				<Box
-					md-align-items="flex-start"
-					sm-flex-direction="row"
-					sm-align-items="center"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-end"
-				>
-					<Text
-						sm-font="--headline2"
-						display="inline-block"
-						color="--dark"
-						lg-font="--headline2"
-						text-align="left"
-						sm-margin="0px 12px 0px 0px"
-						font="--headline1"
-						margin="0px 0px 0px 0px"
-						lg-text-align="center"
-					>
-						25
-					</Text>
-					<Text
-						color="--darkL2"
-						lg-text-align="center"
-						text-align="left"
-						sm-font="--lead"
-						font="--lead"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						opacity="0.6"
-					>
-						developers
-					</Text>
-				</Box>
-				<Box
-					align-items="flex-end"
-					md-align-items="flex-start"
-					sm-flex-direction="row"
-					sm-align-items="center"
-					display="flex"
-					flex-direction="column"
-				>
-					<Text
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						text-align="left"
-						sm-font="--headline2"
-						font="--headline1"
-						color="--dark"
-						lg-text-align="center"
-						lg-font="--headline2"
-						sm-margin="0px 12px 0px 0px"
-					>
-						12
-					</Text>
-					<Text
-						text-align="left"
-						lg-text-align="right"
-						margin="0px 0px 0px 0px"
-						color="--darkL2"
-						opacity="0.6"
-						sm-font="--lead"
-						md-text-align="left"
-						font="--lead"
-						display="inline-block"
-					>
-						support agents
-					</Text>
-				</Box>
-				<Box
-					sm-align-items="center"
-					display="flex"
-					flex-direction="column"
-					align-items="flex-end"
-					md-align-items="flex-start"
-					sm-flex-direction="row"
-				>
-					<Text
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						lg-text-align="center"
-						sm-margin="0px 12px 0px 0px"
-						font="--headline1"
-						color="--dark"
-						text-align="left"
-						lg-font="--headline2"
-						sm-font="--headline2"
-					>
-						04
-					</Text>
-					<Text
-						lg-text-align="center"
-						text-align="left"
-						sm-font="--lead"
-						font="--lead"
-						margin="0px 0px 0px 0px"
-						display="inline-block"
-						opacity="0.6"
-						color="--darkL2"
-					>
-						managers
-					</Text>
 				</Box>
 			</Box>
 		</Section>
@@ -696,6 +379,7 @@ export default (() => {
 			padding="75px 0 50px 0"
 			lg-padding="50px 0 25px 0"
 			lg-height="auto"
+			background="#000000"
 		>
 			<Override
 				slot="SectionContent"
@@ -710,7 +394,7 @@ export default (() => {
 				padding="36px 24px 36px 24px"
 				justify-content="center"
 				flex-direction="column"
-				background="linear-gradient(180deg,rgba(24, 29, 34, 0.5) 0%,transparent 100%) 0 0 no-repeat,--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-fireworks.svg?v=2020-11-06T17:22:27.801Z) center center/cover no-repeat"
+				background="linear-gradient(180deg,rgba(24, 29, 34, 0.5) 0%,transparent 100%) 0 0 no-repeat,--color-lightD1 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/wallhaven-6qx916.png?v=2024-05-11T07:36:19.514Z) center center/cover no-repeat"
 				display="flex"
 				align-items="center"
 				lg-min-height="420px"
@@ -720,11 +404,11 @@ export default (() => {
 					font="--headline2"
 					text-align="center"
 					quarkly-title="Title"
-					color="--light"
+					color="--indigo"
 					md-font="--headline3"
 					margin="10px 0px 15px 0px"
 				>
-					Make It Work.
+					Wanna talk with us?
 				</Text>
 				<Text
 					font="--lead"
@@ -735,28 +419,19 @@ export default (() => {
 					max-width="720px"
 					margin="0px 0px 28px 0px"
 				>
-					Good design adds value faster than it adds cost.
+					...Joining our Discord server is a good start...
 				</Text>
-				<Button
-					font="--lead"
-					letter-spacing="0.5px"
-					background="--color-light"
-					active-box-shadow="none"
-					transition="opacity .15s ease 0s"
-					z-index="5"
-					hover-opacity=".85"
-					focus-box-shadow="none"
-					color="--darkL2"
-					padding="8px 36px 8px 36px"
-					position="relative"
-					hover-box-shadow="none"
-					margin="10px auto 0px auto"
-					opacity="1"
-					width="fit-content"
-					md-font="--base"
+				<Text
+					margin="0px 0px 0px 0px"
+					padding="8px 24px 08px 24px"
+					color="#ffffff"
+					background="#000000"
+					border-width="2px"
+					border-style="dashed"
+					border-color="#aa00ff"
 				>
-					Start Now
-				</Button>
+					https://discord.gg/e4v9UAyqHB
+				</Text>
 			</Box>
 		</Section>
 		<Link
