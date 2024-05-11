@@ -22,9 +22,9 @@ export default {
 			"pageUrl": "index",
 			"seo": {
 				"og:description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
-				"title": "Home | Website Example",
-				"og:title": "Home | Website Example",
-				"og:image": "https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z",
+				"title": "Home | Enchanted Realms",
+				"og:title": "Home | Enchanted Realms",
+				"og:image": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Captura_de_pantalla_2024-05-09_a_las_20.04.08.png?v=2024-05-10T09:48:51.459Z",
 				"description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference."
 			}
 		},
@@ -33,11 +33,11 @@ export default {
 			"pageUrl": "about",
 			"name": "About The Server",
 			"seo": {
-				"og:title": "About | Website Example",
+				"og:title": "About | Enchanted Realms",
 				"og:description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
 				"description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
-				"og:image": "https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z",
-				"title": "About | Website Example"
+				"og:image": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Captura_de_pantalla_2024-05-09_a_las_20.04.08.png?v=2024-05-10T09:48:51.459Z",
+				"title": "About | Enchanted Realms"
 			}
 		},
 		"663cf7db3f24780021f6cc93": {
@@ -45,9 +45,9 @@ export default {
 			"seo": {
 				"description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
 				"og:description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
-				"og:image": "https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/website-example-quarkly.png?v=2020-11-05T19:48:01.806Z",
-				"title": "Team | Website Example",
-				"og:title": "Team | Website Example"
+				"og:image": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Captura_de_pantalla_2024-05-09_a_las_20.04.08.png?v=2024-05-10T09:48:51.459Z",
+				"title": "Team | Enchanted Realms",
+				"og:title": "Team | Enchanted Realms"
 			},
 			"pageUrl": "team",
 			"name": "About the Team"
