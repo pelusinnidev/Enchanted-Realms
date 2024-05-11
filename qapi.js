@@ -21,11 +21,11 @@ export default {
 			"name": "index",
 			"pageUrl": "index",
 			"seo": {
-				"og:description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
+				"og:description": "Discover the magic of Enchanted Realms: your ultimate Minecraft adventure awaits! Explore immersive landscapes, forge friendships, and unleash your creativity. Join us today and experience the enchantment firsthand!",
 				"title": "Home | Enchanted Realms",
 				"og:title": "Home | Enchanted Realms",
 				"og:image": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Captura_de_pantalla_2024-05-09_a_las_20.04.08.png?v=2024-05-10T09:48:51.459Z",
-				"description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference."
+				"description": "Discover the magic of Enchanted Realms: your ultimate Minecraft adventure awaits! Explore immersive landscapes, forge friendships, and unleash your creativity. Join us today and experience the enchantment firsthand!"
 			}
 		},
 		"663cf7db3f24780021f6cc8b": {
@@ -34,8 +34,8 @@ export default {
 			"name": "About The Server",
 			"seo": {
 				"og:title": "About | Enchanted Realms",
-				"og:description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
-				"description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
+				"og:description": "Discover the magic of Enchanted Realms: your ultimate Minecraft adventure awaits! Explore immersive landscapes, forge friendships, and unleash your creativity. Join us today and experience the enchantment firsthand!",
+				"description": "Discover the magic of Enchanted Realms: your ultimate Minecraft adventure awaits! Explore immersive landscapes, forge friendships, and unleash your creativity. Join us today and experience the enchantment firsthand!",
 				"og:image": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Captura_de_pantalla_2024-05-09_a_las_20.04.08.png?v=2024-05-10T09:48:51.459Z",
 				"title": "About | Enchanted Realms"
 			}
@@ -43,8 +43,8 @@ export default {
 		"663cf7db3f24780021f6cc93": {
 			"id": "663cf7db3f24780021f6cc93",
 			"seo": {
-				"description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
-				"og:description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
+				"description": "Discover the magic of Enchanted Realms: your ultimate Minecraft adventure awaits! Explore immersive landscapes, forge friendships, and unleash your creativity. Join us today and experience the enchantment firsthand!",
+				"og:description": "Discover the magic of Enchanted Realms: your ultimate Minecraft adventure awaits! Explore immersive landscapes, forge friendships, and unleash your creativity. Join us today and experience the enchantment firsthand!",
 				"og:image": "https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Captura_de_pantalla_2024-05-09_a_las_20.04.08.png?v=2024-05-10T09:48:51.459Z",
 				"title": "Team | Enchanted Realms",
 				"og:title": "Team | Enchanted Realms"
