@@ -41,6 +41,7 @@ export default (() => {
 				md-grid-template-columns="repeat(2, 1fr)"
 				margin="0px 32px 0px 32px"
 				width="100%"
+				sm-background="#000000"
 			/>
 			<Link transition="opacity 200ms ease" quarkly-title="Link" href="/" position="relative">
 				<Image
@@ -51,7 +52,7 @@ export default (() => {
 					sizes="(max-width: 479px) 100vw,(max-width: 767px) 100vw,(max-width: 991px) 100vw,(max-width: 1199px) 100vw,100vw"
 				/>
 			</Link>
-			<Components.BurgerMenu md-display="flex" md-align-items="center" md-justify-content="flex-end">
+			<Components.BurgerMenu md-display="flex" md-align-items="center" md-justify-content="flex-end" sm-background="#000000">
 				<Override slot="icon-open" md-position="fixed" md-top="18px" md-right="18px" />
 				<Override
 					slot="menu"
@@ -67,6 +68,14 @@ export default (() => {
 					padding="0px 0 0px 0"
 					align-items="center"
 					position="sticky"
+					sm-background="#000000"
+					sm-display="flex"
+					sm-overflow-x="auto"
+					sm-align-items="center"
+					sm-align-content="center"
+					sm-order="0"
+					sm-align-self="auto"
+					sm-flex="0 1 auto"
 				>
 					<Override
 						slot="item"
@@ -77,7 +86,7 @@ export default (() => {
 						padding="8px 20px 8px 20px"
 						color="#fcfcfc"
 					/>
-					<Override slot="item-404" lg-display="none" display="none" />
+					<Override slot="item-404" lg-display="none" display="none" sm-background="#000000" />
 					<Override slot="item-index" lg-display="none" display="none" />
 					<Override
 						slot="link"
@@ -104,13 +113,15 @@ export default (() => {
 						color="--primary"
 						cursor="default"
 					/>
-					<Override slot="link-about" color="--light" />
+					<Override slot="link-about" color="--light" sm-background="#000000" />
 					<Override
 						slot="item-about"
 						color="#fcfcfc"
 						border-width="2px"
 						border-style="solid"
 						margin="0px 15px 0px 0px"
+						sm-margin="0px 15px 15px 16px"
+						sm-width="120px"
 					/>
 					<Override
 						slot="item-team"
@@ -119,6 +130,8 @@ export default (() => {
 						border-width="2px"
 						border-style="solid"
 						margin="0px 10px 0px 15px"
+						sm-margin="15px 10px 0px 15px"
+						sm-width="120px"
 					/>
 					<Override slot="link-team" color="--light" />
 					<Override
@@ -135,6 +148,7 @@ export default (() => {
 					</Override>
 					<Override slot="item-guide" background="#000000" border-width="2px" border-style="solid" />
 					<Override slot="link-index" sm-color="#ffffff" />
+					<Override slot="link-404" sm-color="#ffffff" sm-background="#000000" />
 				</Override>
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 				<Override
