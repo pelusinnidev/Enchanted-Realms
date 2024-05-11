@@ -81,6 +81,9 @@ export default (() => {
 						display="inline-block"
 						text-transform="uppercase"
 						text-align="center"
+						border-color="#ffffff"
+						background="#000000"
+						color="#ffffff"
 					/>
 					<Override slot="item-404" lg-display="none" display="none" />
 					<Override
