@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Section, Text, Box, Icon, Button } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Text, Box, Icon, Em, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -45,9 +45,9 @@ export default (() => {
 			<Link position="relative" transition="opacity 200ms ease" quarkly-title="Link" href="/">
 				<Image
 					z-index="3"
-					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z"
+					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09:11:32.307Z"
 					width="120px"
-					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=3200 3200w"
+					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=3200 3200w"
 					sizes="(max-width: 479px) 100vw,(max-width: 767px) 100vw,(max-width: 991px) 100vw,(max-width: 1199px) 100vw,100vw"
 				/>
 			</Link>
@@ -239,20 +239,6 @@ export default (() => {
 				margin="0px 32px 0px 32px"
 			/>
 			<Text
-				opacity="0.6"
-				letter-spacing="1px"
-				margin="0px 0px 10px 0px"
-				lg-text-align="center"
-				font="--base"
-				color="--light"
-				lg-margin="0px 0px 6px 0px"
-				quarkly-title="Title"
-				text-transform="uppercase"
-				text-align="center"
-			>
-				Who we are
-			</Text>
-			<Text
 				letter-spacing="1px"
 				color="--light"
 				text-align="center"
@@ -262,7 +248,7 @@ export default (() => {
 				font="--headline3"
 				margin="0px 0px 0px 0px"
 			>
-				We’re a group of creatives who've built a business to make the world a better place.
+				Embark on an epic journey through Enchanted Realms, where imagination meets adventure, and every block holds the potential for magic and wonder!
 			</Text>
 		</Section>
 		<Section
@@ -339,7 +325,7 @@ export default (() => {
 						opacity="0.6"
 						color="--light"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						At our core, we prioritize the delivery of high-quality server infrastructure to ensure optimal performance and reliability for our clients. Our servers are meticulously maintained with cutting-edge technology, providing a seamless experience for all users. We invest in top-tier hardware and employ robust security measures to guarantee the integrity of your data and operations.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" align-items="center" justify-content="center">
@@ -363,7 +349,7 @@ export default (() => {
 						margin="0px 0px 0px 0px"
 						display="inline-block"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						Our commitment to providing the best support services sets us apart. Our dedicated team of experts is available around the clock to address any queries or concerns you may have. Whether you encounter technical issues, require assistance with configurations, or seek guidance on optimizing performance, our knowledgeable support staff is here to ensure your satisfaction and success.
 					</Text>
 				</Box>
 				<Box justify-content="center" display="flex" flex-direction="column" align-items="center">
@@ -387,7 +373,7 @@ export default (() => {
 						color="--light"
 						lg-text-align="center"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						We understand that every client is unique, which is why we adopt a personalized approach to service. From initial consultation to ongoing support, we tailor our solutions to meet your specific requirements and objectives. By fostering close partnerships with our clients, we can better understand their needs and deliver customized solutions that exceed expectations.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" align-items="center" justify-content="center">
@@ -411,7 +397,7 @@ export default (() => {
 						lg-text-align="center"
 						text-align="center"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						Our 24/7 server availability is complemented by flexible schedule management tailored to your preferences. While our servers operate around the clock, you have the flexibility to define hour limits according to your workload and usage patterns. This empowers you to optimize resource allocation and maximize efficiency without compromising accessibility.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" align-items="center" justify-content="center">
@@ -435,7 +421,7 @@ export default (() => {
 						text-align="center"
 						font="--base"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						With years of experience in server management, we bring unparalleled expertise to the table. Our team has a proven track record of hosting successful mini events, executing seamless updates, and fostering vibrant communities. Leveraging our extensive knowledge and insights, we consistently deliver value-added services that enhance user engagement and satisfaction.
 					</Text>
 				</Box>
 				<Box display="flex" flex-direction="column" align-items="center" justify-content="center">
@@ -459,7 +445,7 @@ export default (() => {
 						lg-text-align="center"
 						text-align="center"
 					>
-						It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger.
+						Our servers are strategically located in Madrid to cater to the Spanish community, providing low-latency access and optimal performance. Equipped with 24GB RAM and ARM cores, our infrastructure boasts superior processing power and efficiency. By harnessing the latest advancements in technology, we empower our clients to achieve their goals with speed, reliability, and scalability.
 					</Text>
 				</Box>
 			</Box>
@@ -487,7 +473,7 @@ export default (() => {
 			<Box
 				display="grid"
 				grid-gap="32px"
-				grid-template-columns="repeat(3, 1fr)"
+				grid-template-columns="repeat(2, 1fr)"
 				width="100%"
 				lg-grid-template-columns="1fr"
 			>
@@ -499,7 +485,7 @@ export default (() => {
 					margin="0px 0px 10px 0px"
 					display="inline-block"
 				>
-					Hi! I'm a paragraph.{" "}
+					Our Requirements...
 				</Text>
 				<Text
 					display="inline-block"
@@ -510,18 +496,132 @@ export default (() => {
 					font="--base"
 					margin="0px 0px 0px 0px"
 				>
-					Click here to add your own text and edit me. It’s a piece of cake. I’m a great space for you to tell a story and let your site visitors know more about you. Talk about your business and what products and services you offer.
+					At Enchanted Realms, we champion creativity and individuality. While we believe in the freedom to explore and innovate, we also value community harmony. Our guidelines, though necessary for cohesion, serve as guardrails, ensuring a welcoming and respectful environment for all. Join us in celebrating diversity while adhering to guidelines that promote kindness and inclusivity. Join our Discord server or copy the following link.  Let's create together, respectfully...
+					<br />
+					<br />
+					<Strong>
+						<Em>
+							{" "}COPY THE LINK:
+						</Em>
+					</Strong>
+					{" "}https://dolls-learn-63t.craft.me/ZdR8JQI7Wcu7oH
 				</Text>
+			</Box>
+		</Section>
+		<Section
+			padding="80px 0px 80px 0px"
+			quarkly-title="About"
+			background="--color-dark"
+			lg-padding="50px 0px 50px 0px"
+			justify-content="center"
+			box-sizing="border-box"
+			border-width="1px 0px 1px 0px"
+			border-style="solid"
+			border-color="--color-lightD2"
+			color="#ffffff"
+		>
+			<Override
+				slot="SectionContent"
+				align-items="center"
+				width="100%"
+				margin="0px 32px 0px 32px"
+				md-margin="0px 16px 0px 16px"
+				min-width="auto"
+			/>
+			<Box
+				display="grid"
+				grid-gap="32px"
+				grid-template-columns="repeat(2, 1fr)"
+				width="100%"
+				lg-grid-template-columns="1fr"
+			>
 				<Text
 					margin="0px 0px 0px 0px"
 					display="inline-block"
 					opacity="0.6"
 					color="--light"
 					lg-text-align="left"
-					text-align="left"
+					text-align="right"
 					font="--base"
 				>
-					Share how you came up with the idea for your company and what makes you different from your competitors. Make your business stand out and show your visitors who you are.
+					To ensure a smooth and enjoyable gaming experience, we recommend configuring your Minecraft launcher using our provided guide. This guide has been meticulously crafted to assist you in seamlessly connecting to our server. By following the steps outlined in the guide, you'll be ready to embark on exciting adventures with fellow players. Click the link below to access the guide and begin your journey with us. Thank you for choosing our server, and we look forward to seeing you online!
+					<br />
+					<br />
+					<Strong>
+						<Em>
+							COPY THE LINK:
+						</Em>
+					</Strong>
+					{" "}https://dolls-learn-63t.craft.me/Y9e6hWrA2bWBZB{" "}
+				</Text>
+				<Text
+					color="--light"
+					lg-margin="0px 0px 0px 0px"
+					md-font="--lead"
+					font="--headline3"
+					margin="0px 0px 10px 0px"
+					display="inline-block"
+					text-align="right"
+				>
+					Need help joining the Server?
+				</Text>
+			</Box>
+		</Section>
+		<Section
+			padding="80px 0px 80px 0px"
+			quarkly-title="About"
+			background="--color-dark"
+			lg-padding="50px 0px 50px 0px"
+			justify-content="center"
+			box-sizing="border-box"
+			border-width="1px 0px 1px 0px"
+			border-style="solid"
+			border-color="--color-lightD2"
+			color="#ffffff"
+		>
+			<Override
+				slot="SectionContent"
+				align-items="center"
+				width="100%"
+				margin="0px 32px 0px 32px"
+				md-margin="0px 16px 0px 16px"
+				min-width="auto"
+			/>
+			<Box
+				display="grid"
+				grid-gap="32px"
+				grid-template-columns="repeat(2, 1fr)"
+				width="100%"
+				lg-grid-template-columns="1fr"
+			>
+				<Text
+					color="--light"
+					lg-margin="0px 0px 0px 0px"
+					md-font="--lead"
+					font="--headline3"
+					margin="0px 0px 10px 0px"
+					display="inline-block"
+				>
+					Need help with Mods?
+				</Text>
+				<Text
+					display="inline-block"
+					opacity="0.6"
+					color="--light"
+					lg-text-align="left"
+					text-align="left"
+					font="--base"
+					margin="0px 0px 0px 0px"
+				>
+					At our Minecraft server, we pride ourselves on offering a diverse array of mods to enhance your gaming experience. However, we understand that managing multiple mods simultaneously can sometimes pose a challenge. To ensure seamless gameplay and control over your gaming environment, we encourage you to utilize our comprehensive keyboard configuration guide. This guide has been thoughtfully curated to assist you in optimizing your keyboard settings, allowing for effortless navigation and interaction within the game. By following the instructions provided, you'll be able to tailor your keyboard layout to suit your preferences, thus maximizing your enjoyment while exploring our server. Click the link below to access the guide and embark on a truly immersive gaming journey with us. Thank you for being part of our community, and we look forward to seeing you in-game!
+					<br />
+					<br />
+					<Strong>
+						<Em>
+							COPY THE LINK:
+						</Em>
+					</Strong>
+					{" "}https://dolls-learn-63t.craft.me/dWx2tAEUu30m97
 				</Text>
 			</Box>
 		</Section>
@@ -545,7 +645,7 @@ export default (() => {
 				min-height="480px"
 				display="flex"
 				justify-content="center"
-				background="linear-gradient(180deg,rgba(24, 29, 34, 0.5) 0%,transparent 100%) 0 0 no-repeat,--color-lightD1 url(https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-fireworks.svg?v=2020-11-06T17:22:27.801Z) center center/cover no-repeat"
+				background="linear-gradient(180deg,rgba(24, 29, 34, 0.5) 0%,transparent 100%) 0 0 no-repeat,--color-lightD1 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/wallhaven-6qx916.png?v=2024-05-11T07:36:19.514Z) center center/cover no-repeat"
 				lg-min-height="420px"
 				sm-min-height="280px"
 				padding="36px 24px 36px 24px"
@@ -558,10 +658,10 @@ export default (() => {
 					font="--headline2"
 					text-align="center"
 					quarkly-title="Title"
-					color="--light"
+					color="--indigo"
 					md-font="--headline3"
 				>
-					Make It Work.
+					Join our Community
 				</Text>
 				<Text
 					margin="0px 0px 28px 0px"
@@ -572,28 +672,19 @@ export default (() => {
 					color="--light"
 					max-width="720px"
 				>
-					Good design adds value faster than it adds cost.
+					Hop into our Discord Server
 				</Text>
-				<Button
-					letter-spacing="0.5px"
-					transition="opacity .15s ease 0s"
-					z-index="5"
-					margin="10px auto 0px auto"
-					padding="8px 36px 8px 36px"
-					position="relative"
-					opacity="1"
-					hover-opacity=".85"
-					hover-box-shadow="none"
-					active-box-shadow="none"
-					width="fit-content"
-					font="--lead"
-					focus-box-shadow="none"
-					md-font="--base"
-					color="--darkL2"
-					background="--color-light"
+				<Text
+					margin="0px 0px 0px 0px"
+					padding="8px 24px 08px 24px"
+					color="#ffffff"
+					background="#000000"
+					border-width="2px"
+					border-style="dashed"
+					border-color="#aa00ff"
 				>
-					Start Now
-				</Button>
+					https://discord.gg/e4v9UAyqHB
+				</Text>
 			</Box>
 		</Section>
 		<Link

@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Section, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Text, Box, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -42,10 +42,10 @@ export default (() => {
 			/>
 			<Link href="/" position="relative" transition="opacity 200ms ease" quarkly-title="Link">
 				<Image
-					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z"
+					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09:11:32.307Z"
 					width="120px"
 					z-index="3"
-					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=3200 3200w"
+					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09%3A11%3A32.307Z&quality=85&w=3200 3200w"
 					sizes="(max-width: 479px) 100vw,(max-width: 767px) 100vw,(max-width: 991px) 100vw,(max-width: 1199px) 100vw,100vw"
 				/>
 			</Link>
@@ -232,6 +232,58 @@ export default (() => {
 			</Text>
 		</Section>
 		<Section
+			justify-content="center"
+			quarkly-title="Prismarine"
+			padding="75px 0 50px 0"
+			lg-padding="50px 0 25px 0"
+			lg-height="auto"
+			background="#000000"
+		>
+			<Override
+				slot="SectionContent"
+				margin="0px 32px 0px 32px"
+				md-margin="0px 16px 0px 16px"
+				min-width="auto"
+				width="100%"
+			/>
+			<Box
+				sm-min-height="280px"
+				min-height="480px"
+				padding="36px 24px 36px 24px"
+				justify-content="center"
+				flex-direction="column"
+				background="linear-gradient(180deg,rgba(24, 29, 34, 0.5) 0%,transparent 100%) 0 0 no-repeat,--color-lightD1 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2011.08.19.png?v=2024-05-11T09:11:32.307Z) center center/cover no-repeat"
+				display="flex"
+				align-items="center"
+				lg-min-height="420px"
+				md-min-height="360px"
+			>
+				<Text
+					font="--lead"
+					opacity="0.6"
+					text-align="center"
+					quarkly-title="Description"
+					color="--light"
+					max-width="720px"
+					margin="16px 0px 170px 0px"
+				>
+					Made by
+				</Text>
+				<Text
+					font="--headline2"
+					text-align="center"
+					quarkly-title="Title"
+					color="--green"
+					md-font="--headline3"
+					margin="200px 0px 16px 0px"
+				>
+					<Em>
+						Prismarine Foundation
+					</Em>
+				</Text>
+			</Box>
+		</Section>
+		<Section
 			lg-padding="50px 0px 50px 0px"
 			justify-content="center"
 			padding="80px 0px 60px 0px"
@@ -312,7 +364,7 @@ export default (() => {
 							quarkly-title="Position"
 							font="--base"
 						>
-							Founder & CEO
+							Founder & Lead Server Technician
 						</Text>
 					</Box>
 				</Box>
@@ -346,7 +398,7 @@ export default (() => {
 							margin="0px 0px 0px 0px"
 							opacity="0.6"
 						>
-							Lead Administrador
+							Co-Founder & Lead Administrador
 						</Text>
 					</Box>
 				</Box>
@@ -380,7 +432,7 @@ export default (() => {
 							margin="0px 0px 0px 0px"
 							text-align="left"
 						>
-							Lead Server Modding
+							Co-Founder & Lead Server Modding{" "}
 						</Text>
 					</Box>
 				</Box>
