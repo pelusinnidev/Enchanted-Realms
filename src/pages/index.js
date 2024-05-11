@@ -191,13 +191,15 @@ export default (() => {
 				align-items="center"
 				display="flex"
 				justify-content="center"
-				background="linear-gradient(180deg,rgba(155, 108, 252, 0.15) 0%,transparent 100%) 0 0 no-repeat,--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/IMG_0100.jpeg?v=2024-05-11T10:31:38.909Z) 0% 0%/cover"
+				background="linear-gradient(180deg,rgba(155, 108, 252, 0.15) 0%,transparent 100%) 0 0 no-repeat,--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2012.59.43.png?v=2024-05-11T10:59:55.840Z) 0% 0%/cover"
 				md-min-height="360px"
 				sm-min-height="180px"
 				width="100%"
 				min-height="480px"
 				height="240px"
 				sm-background="--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2012.57.52.png?v=2024-05-11T10:58:03.321Z) 0% 0%/cover"
+				flex="0 1 auto"
+				align-self="auto"
 			/>
 		</Section>
 		<Section
