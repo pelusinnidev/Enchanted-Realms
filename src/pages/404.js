@@ -1,9 +1,9 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Button, Section, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Text } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
-import { Override, StackItem, Stack, SocialMedia } from "@quarkly/components";
+import { Override, StackItem, Stack } from "@quarkly/components";
 import * as Components from "components";
 import { MdMenu } from "react-icons/md";
 export default (() => {
@@ -24,7 +24,13 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/152px.png?v=2024-05-10T09:37:54.804Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/270px.png?v=2024-05-10T09:38:23.065Z"} />
 		</Helmet>
-		<Section padding="16px 0 16px 0" quarkly-title="Header" align-items="center" justify-content="center">
+		<Section
+			padding="16px 0 16px 0"
+			quarkly-title="Header"
+			align-items="center"
+			justify-content="center"
+			background="#000000"
+		>
 			<Override
 				slot="SectionContent"
 				display="grid"
@@ -35,7 +41,13 @@ export default (() => {
 				md-margin="0px 16px 0px 16px"
 			/>
 			<Link href="/" position="relative" transition="opacity 200ms ease" quarkly-title="Link">
-				<Image src="https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-logo.svg?v=2020-11-06T17:26:21.226Z" width="120px" z-index="3" />
+				<Image
+					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z"
+					width="120px"
+					z-index="3"
+					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 479px) 100vw,(max-width: 767px) 100vw,(max-width: 991px) 100vw,(max-width: 1199px) 100vw,100vw"
+				/>
 			</Link>
 			<Components.BurgerMenu md-display="flex" md-align-items="center" md-justify-content="flex-end">
 				<Override
@@ -61,7 +73,13 @@ export default (() => {
 						display="inline-block"
 					/>
 					<Override slot="item-404" lg-display="none" display="none" />
-					<Override slot="item-index" lg-display="none" display="none" />
+					<Override
+						slot="item-index"
+						lg-display="none"
+						display="none"
+						color="#ffffff"
+						background="#000000"
+					/>
 					<Override
 						slot="link"
 						transition="opacity .15s ease 0s"
@@ -87,6 +105,25 @@ export default (() => {
 						color="--primary"
 						cursor="default"
 					/>
+					<Override slot="link-index" color="--dark" />
+					<Override
+						slot="item-about"
+						color="#ffffff"
+						background="#000000"
+						border-width="2px"
+						border-style="solid"
+						margin="0px 15px 0px 0px"
+					/>
+					<Override slot="link-about" color="#ffffff" background="#000000" />
+					<Override
+						slot="item-team"
+						color="#ffffff"
+						background="#000000"
+						border-width="2px"
+						border-style="solid"
+						margin="0px 0px 0px 15px"
+					/>
+					<Override slot="link-team" border-color="#ffffff" background="#000000" color="#ffffff" />
 				</Override>
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 				<Override
@@ -108,23 +145,8 @@ export default (() => {
 				/>
 				<Override slot="icon-open" md-position="fixed" md-top="18px" md-right="18px" />
 			</Components.BurgerMenu>
-			<Button
-				font="--base"
-				z-index="5"
-				background="--color-primary"
-				border-radius="0px"
-				hover-transform="translateY(-4px)"
-				padding="8px 18px 8px 18px"
-				letter-spacing="0.5px"
-				md-display="none"
-				white-space="nowrap"
-				transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-				justify-self="end"
-			>
-				Contact Us
-			</Button>
 		</Section>
-		<Section lg-padding="25px 0 25px 0" quarkly-title="Hero" padding="25px 0 75px 0">
+		<Section lg-padding="25px 0 25px 0" quarkly-title="Hero" padding="25px 0 75px 0" background="#000000">
 			<Stack>
 				{"    "}
 				<StackItem width="100%" display="flex">
@@ -178,49 +200,6 @@ export default (() => {
 				</StackItem>
 				{"    "}
 			</Stack>
-		</Section>
-		<Section
-			margin="0 0 0 0"
-			padding="16px 0 16px 0"
-			box-sizing="border-box"
-			quarkly-title="Footer"
-			justify-content="center"
-		>
-			<Override
-				slot="SectionContent"
-				width="100%"
-				margin="0px 32px 0px 32px"
-				md-margin="0px 16px 0px 16px"
-				min-width="auto"
-			/>
-			<Box
-				display="grid"
-				grid-gap="32px"
-				width="100%"
-				grid-template-columns="repeat(2, 1fr)"
-				sm-grid-gap="16px"
-			>
-				<Box display="flex" align-items="center" sm-flex-wrap="wrap">
-					<Image src="https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-quarkly-logo-grey.svg?v=2020-11-06T17:24:35.270Z" width="28px" height="28px" />
-					<Link
-						text-decoration-line="initial"
-						opacity="0.6"
-						font="--base"
-						color="--dark"
-						text-align="left"
-						margin="1px 0px 0px 10px"
-						hover-text-decoration-line="underline"
-						white-space="nowrap"
-						href="https://quarkly.io/"
-					>
-						Made on Quarkly
-					</Link>
-				</Box>
-				<SocialMedia twitter="https://twitter.com/quarklyapp" youtube="https://www.youtube.com/channel/UCK5bXs2L0bbSMQ82BQ3hIkw" justify-content="flex-end" facebook="https://www.facebook.com/quarklyapp/">
-					<Override slot="icon" color="--dark" />
-					<Override slot="link" border-radius="50%" background="none" />
-				</SocialMedia>
-			</Box>
 		</Section>
 		<Link
 			font={"--capture"}
