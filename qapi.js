@@ -6,8 +6,7 @@ export default {
 				"663cf7db3f24780021f6cc83",
 				"663cf7db3f24780021f6cc87",
 				"663cf7db3f24780021f6cc8b",
-				"663cf7db3f24780021f6cc93",
-				"663dec48f0cb1d0025f53180"
+				"663cf7db3f24780021f6cc93"
 			],
 			"id": "root",
 			"pageUrl": "root"
@@ -32,7 +31,7 @@ export default {
 		"663cf7db3f24780021f6cc8b": {
 			"id": "663cf7db3f24780021f6cc8b",
 			"pageUrl": "about",
-			"name": "About",
+			"name": "About The Server",
 			"seo": {
 				"og:title": "About | Website Example",
 				"og:description": "It all begins with an idea. Maybe you want to launch a business. Maybe you want to turn a hobby into something bigger. Or maybe you have a creative project to share with the world. Whatever it is, the way you tell your story online can make all the difference.",
@@ -51,12 +50,7 @@ export default {
 				"og:title": "Team | Website Example"
 			},
 			"pageUrl": "team",
-			"name": "Team"
-		},
-		"663dec48f0cb1d0025f53180": {
-			"id": "663dec48f0cb1d0025f53180",
-			"pageUrl": "guide",
-			"name": "Guide"
+			"name": "About the Team"
 		}
 	},
 	"mode": "production",

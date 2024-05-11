@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Button, Section, Text, Box } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Text, Box, Button } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -24,7 +24,13 @@ export default (() => {
 			<link rel={"apple-touch-startup-image"} href={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/152px.png?v=2024-05-10T09:37:54.804Z"} />
 			<meta name={"msapplication-TileImage"} content={"https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/270px.png?v=2024-05-10T09:38:23.065Z"} />
 		</Helmet>
-		<Section padding="16px 0 16px 0" quarkly-title="Header" align-items="center" justify-content="center">
+		<Section
+			padding="16px 0 16px 0"
+			quarkly-title="Header"
+			align-items="center"
+			justify-content="center"
+			background="#000000"
+		>
 			<Override
 				slot="SectionContent"
 				md-margin="0px 16px 0px 16px"
@@ -35,9 +41,15 @@ export default (() => {
 				width="100%"
 			/>
 			<Link href="/" position="relative" transition="opacity 200ms ease" quarkly-title="Link">
-				<Image src="https://uploads.quarkly.io/5f44d0da669357001e60ed14/images/default-website-logo.svg?v=2020-11-06T17:26:21.226Z" width="120px" z-index="3" />
+				<Image
+					src="https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z"
+					width="120px"
+					z-index="3"
+					srcSet="https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=500 500w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=800 800w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1080 1080w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=1600 1600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2000 2000w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=2600 2600w,https://smartuploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10%3A11%3A23.173Z&quality=85&w=3200 3200w"
+					sizes="(max-width: 479px) 100vw,(max-width: 767px) 100vw,(max-width: 991px) 100vw,(max-width: 1199px) 100vw,100vw"
+				/>
 			</Link>
-			<Components.BurgerMenu md-align-items="center" md-justify-content="flex-end" md-display="flex">
+			<Components.BurgerMenu md-align-items="center" md-justify-content="flex-end" md-display="flex" sm-background="#000000">
 				<Override
 					slot="menu-open"
 					md-bottom={0}
@@ -71,7 +83,15 @@ export default (() => {
 						text-align="center"
 					/>
 					<Override slot="item-404" lg-display="none" display="none" />
-					<Override slot="item-index" lg-display="none" display="none" />
+					<Override
+						slot="item-index"
+						lg-display="none"
+						display="none"
+						sm-color="#ffffff"
+						sm-background="#000000"
+						color="#ffffff"
+						background="#000000"
+					/>
 					<Override
 						slot="link"
 						color="--dark"
@@ -97,6 +117,18 @@ export default (() => {
 						color="--primary"
 						cursor="default"
 					/>
+					<Override slot="link-index" color="#ffffff" background="#000000" />
+					<Override
+						slot="item-about"
+						color="#ffffff"
+						background="#000000"
+						border-width="2px"
+						border-style="solid"
+						margin="0px 15px 0px 0px"
+					/>
+					<Override slot="link-about" color="#ffffff" background="#000000" />
+					<Override slot="item-team" border-width="2px" border-style="solid" margin="0px 0px 0px 15px" />
+					<Override slot="link-team" color="#ffffff" background="#000000" />
 				</Override>
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 				<Override
@@ -106,23 +138,9 @@ export default (() => {
 					size="36px"
 					md-right="0px"
 					md-position="relative"
+					sm-color="#ffffff"
 				/>
 			</Components.BurgerMenu>
-			<Button
-				padding="8px 18px 8px 18px"
-				font="--base"
-				letter-spacing="0.5px"
-				background="--color-primary"
-				hover-transform="translateY(-4px)"
-				z-index="5"
-				md-display="none"
-				white-space="nowrap"
-				border-radius="0px"
-				transition="transform --transitionDuration-fast --transitionTimingFunction-easeInOut 0s"
-				justify-self="end"
-			>
-				Contact Us
-			</Button>
 		</Section>
 		<Section quarkly-title="Hero" padding="25px 0 75px 0" lg-padding="25px 0 25px 0" justify-content="center">
 			<Override

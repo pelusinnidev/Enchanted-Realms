@@ -110,7 +110,7 @@ export default (() => {
 						color="#fcfcfc"
 						border-width="2px"
 						border-style="solid"
-						margin="0px 10px 0px 0px"
+						margin="0px 15px 0px 0px"
 					/>
 					<Override
 						slot="item-team"
@@ -118,7 +118,7 @@ export default (() => {
 						background="#000000"
 						border-width="2px"
 						border-style="solid"
-						margin="0px 10px 0px 10px"
+						margin="0px 10px 0px 15px"
 					/>
 					<Override slot="link-team" color="--light" />
 					<Override
@@ -134,6 +134,7 @@ export default (() => {
 						Guide
 					</Override>
 					<Override slot="item-guide" background="#000000" border-width="2px" border-style="solid" />
+					<Override slot="link-index" sm-color="#ffffff" />
 				</Override>
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 				<Override
@@ -143,6 +144,7 @@ export default (() => {
 					size="36px"
 					md-right="0px"
 					md-position="relative"
+					sm-color="#ffffff"
 				/>
 				<Override
 					slot="menu-open"
