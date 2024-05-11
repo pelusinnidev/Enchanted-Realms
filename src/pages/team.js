@@ -74,6 +74,7 @@ export default (() => {
 					md-left={0}
 					md-width="100%"
 					sm-background="#000000"
+					sm-color="#ffffff"
 				>
 					<Override
 						slot="item"
@@ -112,6 +113,7 @@ export default (() => {
 						hover-opacity="1"
 						md-hover-opacity="1"
 						md-active-opacity="1"
+						sm-color="#ffffff"
 					/>
 					<Override
 						slot="link-active"

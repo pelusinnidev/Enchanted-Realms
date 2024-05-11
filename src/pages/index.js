@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Section, Text, Box, Icon, Em } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Box, Text, Icon, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -76,6 +76,7 @@ export default (() => {
 					sm-order="0"
 					sm-align-self="auto"
 					sm-flex="0 1 auto"
+					sm-color="#ffffff"
 				>
 					<Override
 						slot="item"
@@ -104,6 +105,7 @@ export default (() => {
 						md-transition="opacity .15s ease 0s"
 						opacity=".5"
 						hover-opacity="1"
+						sm-color="#ffffff"
 					/>
 					<Override
 						slot="link-active"
@@ -185,7 +187,7 @@ export default (() => {
 				slot="SectionContent"
 				md-margin="0px 16px 0px 16px"
 				width="100%"
-				background="url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z) 0% 0%/contain no-repeat,#000000"
+				background=",#000000"
 				height="620px"
 				justify-content="center"
 				sm-width="100%"
@@ -198,25 +200,41 @@ export default (() => {
 				overflow-x="visible"
 				overflow-y="visible"
 				flex-direction="column-reverse"
-				display="grid"
+				display="flex"
 				flex="0 1 auto"
 				order="0"
 				align-self="auto"
 				sm-align-items="end"
 				sm-justify-items="center"
-				sm-background="url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z) 0% 0%/contain no-repeat"
+				sm-display="grid"
+				sm-height="320px"
+			/>
+			<Box
+				min-width="100px"
+				min-height="100px"
+				background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-10%20at%2012.10.49.png?v=2024-05-10T10:11:23.173Z) 0% 0% /cover repeat scroll padding-box"
+				width="120%"
+				height="120%"
+				sm-overflow-x="auto"
+				sm-overflow-y="auto"
+				sm-justify-self="center"
+				sm-align-self="end"
+				sm-background="rgba(0, 0, 0, 0) url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/Screenshot%202024-05-11%20at%2012.51.03.png?v=2024-05-11T10:51:22.178Z) 0% 0% /100% repeat fixed padding-box"
+				sm-display="block"
+				sm-order="0"
+				sm-height="80%"
 			/>
 			<Text
 				font="--headline1"
-				margin="350px 0px 0px 0px"
 				sm-text-align="center"
-				sm-width="100% border-box"
 				lg-text-align="center"
 				lg-font="--headline2"
 				color="--light"
 				lg-padding="0px 0px 75px 0px"
 				md-padding="0px 0px 0px 0px"
 				md-margin="350px 0px 100px 0px"
+				sm-width="100% border-box"
+				sm-margin="0px 0px 0px 0px"
 			>
 				Enchant Your Way.
 			</Text>
