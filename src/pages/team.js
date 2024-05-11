@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Section, Text, Box, Em } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Box, Text, Em } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -173,29 +173,12 @@ export default (() => {
 				display="flex"
 				align-items="center"
 				justify-content="center"
-				background="radial-gradient(at center,--color-darkL2 23.3%,rgba(0,0,0,0) 82.4%),linear-gradient(180deg,rgba(155, 108, 252, 0.15) 0%,transparent 100%) 0 0 no-repeat,--color-darkL2"
+				background="linear-gradient(180deg,rgba(155, 108, 252, 0.15) 0%,transparent 100%) 0 0 no-repeat,--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/IMG_0101.jpeg?v=2024-05-11T10:30:54.442Z) 0% 0%/cover"
 				md-min-height="360px"
 				sm-min-height="180px"
 				width="100%"
 				min-height="480px"
-			>
-				<Text
-					font="--headline1"
-					align-items="center"
-					justify-content="center"
-					quarkly-title="Title"
-					sm-text-align="center"
-					md-font="--headline2"
-					lg-font="--headline2"
-					margin="0px 0px 0px 0px"
-					display="flex"
-					color="--light"
-					sm-font="normal 900 42px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
-					text-align="center"
-				>
-					Meet the Team.
-				</Text>
-			</Box>
+			/>
 		</Section>
 		<Section
 			border-width="1px 0px 1px 0px"

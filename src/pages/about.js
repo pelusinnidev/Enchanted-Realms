@@ -1,6 +1,6 @@
 import React from "react";
 import theme from "theme";
-import { Theme, Link, Image, Section, Text, Box, Icon, Em, Strong } from "@quarkly/widgets";
+import { Theme, Link, Image, Section, Box, Text, Icon, Em, Strong } from "@quarkly/widgets";
 import { Helmet } from "react-helmet";
 import { GlobalQuarklyPageStyles } from "global-page-styles";
 import { Override } from "@quarkly/components";
@@ -192,29 +192,13 @@ export default (() => {
 				align-items="center"
 				display="flex"
 				justify-content="center"
-				background="radial-gradient(at center,--color-darkL2 23.3%,rgba(0,0,0,0) 82.4%),linear-gradient(180deg,rgba(155, 108, 252, 0.15) 0%,transparent 100%) 0 0 no-repeat,--color-darkL2"
+				background="linear-gradient(180deg,rgba(155, 108, 252, 0.15) 0%,transparent 100%) 0 0 no-repeat,--color-darkL2 url(https://uploads.quarkly.io/663cf7db3f24780021f6cc6a/images/IMG_0100.jpeg?v=2024-05-11T10:31:38.909Z) 0% 0%/cover"
 				md-min-height="360px"
 				sm-min-height="180px"
 				width="100%"
 				min-height="480px"
-			>
-				<Text
-					font="--headline1"
-					margin="0px 0px 0px 0px"
-					quarkly-title="Title"
-					sm-text-align="center"
-					text-align="center"
-					md-font="--headline2"
-					display="flex"
-					align-items="center"
-					color="--light"
-					justify-content="center"
-					sm-font="normal 900 42px/1.2 -apple-system, system-ui, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif"
-					lg-font="--headline2"
-				>
-					Enchanted Realms.
-				</Text>
-			</Box>
+				height="240px"
+			/>
 		</Section>
 		<Section
 			padding="90px 0px 100px 0px"
@@ -496,11 +480,29 @@ export default (() => {
 					font="--base"
 					margin="0px 0px 0px 0px"
 				>
-					At Enchanted Realms, we champion creativity and individuality. While we believe in the freedom to explore and innovate, we also value community harmony. Our guidelines, though necessary for cohesion, serve as guardrails, ensuring a welcoming and respectful environment for all. Join us in celebrating diversity while adhering to guidelines that promote kindness and inclusivity. Join our Discord server or copy the following link.  Let's create together, respectfully...
+					At Enchanted Realms, we champion creativity and individuality. While we believe in the freedom to explore and innovate, we also value community harmony. Our guidelines, though necessary for cohesion, serve as guardrails, ensuring a welcoming and respectful environment for all. Join us in celebrating diversity while adhering to guidelines that promote kindness and inclusivity. Join our Discord server or copy the following link. Let's create together, respectfully...
 					<br />
 					<br />
-					<Strong>
-						<Em>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						<Em
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							{" "}COPY THE LINK:
 						</Em>
 					</Strong>
@@ -544,11 +546,29 @@ export default (() => {
 					text-align="right"
 					font="--base"
 				>
-					To ensure a smooth and enjoyable gaming experience, we recommend configuring your Minecraft launcher using our provided guide. This guide has been meticulously crafted to assist you in seamlessly connecting to our server. By following the steps outlined in the guide, you'll be ready to embark on exciting adventures with fellow players. Click the link below to access the guide and begin your journey with us. Thank you for choosing our server, and we look forward to seeing you online!
+					To ensure a smooth and enjoyable gaming experience, we recommend configuring your Minecraft launcher using our provided guide. This guide has been meticulously crafted to assist you in seamlessly connecting to our server. By following the steps outlined in the guide, you'll be ready to embark on exciting adventures with fellow players. Copy the link below to access the guide and begin your journey with us. Thank you for choosing our server, and we look forward to seeing you online!
 					<br />
 					<br />
-					<Strong>
-						<Em>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						<Em
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							COPY THE LINK:
 						</Em>
 					</Strong>
@@ -613,11 +633,29 @@ export default (() => {
 					font="--base"
 					margin="0px 0px 0px 0px"
 				>
-					At our Minecraft server, we pride ourselves on offering a diverse array of mods to enhance your gaming experience. However, we understand that managing multiple mods simultaneously can sometimes pose a challenge. To ensure seamless gameplay and control over your gaming environment, we encourage you to utilize our comprehensive keyboard configuration guide. This guide has been thoughtfully curated to assist you in optimizing your keyboard settings, allowing for effortless navigation and interaction within the game. By following the instructions provided, you'll be able to tailor your keyboard layout to suit your preferences, thus maximizing your enjoyment while exploring our server. Click the link below to access the guide and embark on a truly immersive gaming journey with us. Thank you for being part of our community, and we look forward to seeing you in-game!
+					At our Minecraft server, we pride ourselves on offering a diverse array of mods to enhance your gaming experience. However, we understand that managing multiple mods simultaneously can sometimes pose a challenge. To ensure seamless gameplay and control over your gaming environment, we encourage you to utilize our comprehensive keyboard configuration guide. This guide has been thoughtfully curated to assist you in optimizing your keyboard settings, allowing for effortless navigation and interaction within the game. By following the instructions provided, you'll be able to tailor your keyboard layout to suit your preferences, thus maximizing your enjoyment while exploring our server. Copy the link below to access the guide and embark on a truly immersive gaming journey with us. Thank you for being part of our community, and we look forward to seeing you in-game!
 					<br />
 					<br />
-					<Strong>
-						<Em>
+					<Strong
+						overflow-wrap="normal"
+						word-break="normal"
+						white-space="normal"
+						text-indent="0"
+						text-overflow="clip"
+						hyphens="manual"
+						user-select="auto"
+						pointer-events="auto"
+					>
+						<Em
+							overflow-wrap="normal"
+							word-break="normal"
+							white-space="normal"
+							text-indent="0"
+							text-overflow="clip"
+							hyphens="manual"
+							user-select="auto"
+							pointer-events="auto"
+						>
 							COPY THE LINK:
 						</Em>
 					</Strong>
