@@ -158,6 +158,8 @@ export default (() => {
 					<Override slot="item-guide" background="#000000" border-width="2px" border-style="solid" />
 					<Override slot="link-index" sm-color="#ffffff" />
 					<Override slot="link-404" sm-color="#ffffff" sm-background="#000000" />
+					<Override slot="link-status" color="#ffffff" margin="0px 10px 0px 10px" />
+					<Override slot="item-status" border-width="2px" border-style="solid" />
 				</Override>
 				<Override slot="icon,icon-close" category="md" icon={MdMenu} />
 				<Override

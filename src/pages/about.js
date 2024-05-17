@@ -52,7 +52,13 @@ export default (() => {
 					sizes="(max-width: 479px) 100vw,(max-width: 767px) 100vw,(max-width: 991px) 100vw,(max-width: 1199px) 100vw,100vw"
 				/>
 			</Link>
-			<Components.BurgerMenu md-display="flex" md-align-items="center" md-justify-content="flex-end">
+			<Components.BurgerMenu
+				md-display="flex"
+				md-align-items="center"
+				md-justify-content="flex-end"
+				justify-self="auto"
+				align-self="center"
+			>
 				<Override
 					slot="icon"
 					icon={MdMenu}
